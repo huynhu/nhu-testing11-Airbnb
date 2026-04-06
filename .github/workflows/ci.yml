@@ -1,0 +1,68 @@
+name: CI (AIRBNB - Playwright)
+# Kích hoạt workflow khi có push hoặc pull request vào nhánh main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    # Su dung OS-ubuntu-latest de chay job
+    runs-on: ubuntu-latest
+    # gioi han thoi gian chay cho job la 30 phut
+    timeout-minutes: 30
+    steps:
+      # B1: Lay code tu repository ve
+      - name: Pull code from repository (checkout)
+        uses: actions/checkout@v4
+      # B2: Cai dat node.js(phien ban 20.0.0 hoac moi hon)
+      - name: Set up node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      # B3: Cai dat cac dependencies(library) cua du an
+      - name: install dependences
+        run: npm install
+      # B4: tai browser (chromium) de chay test
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+      # B4.1: Tao file .env de luu thong tin dang nhap
+      - name: Create .env file
+        run: |
+          echo "USERNAME=${{secrets.USERNAME}}" >> .env
+          echo "USERNAME=${{secrets.PASSWORD}} >> .env
+      # B5: chay test bang Playwright
+      - name: Run Playwright test
+        run: npx playwright test --project=chromium
+      # B6: Tao bao cao Allure (neu co)
+      - name: Generate Allure report
+        if: always()
+        run: |
+          # kiem tra folder allure-results co ton tai khong
+          if [-d "allure-results"]: then
+              # neu co thi tao bao cao allure
+              npm run -s allure:generate || true # bo qua loi neu co
+          else
+              echo "No allure-results folder found, skipping report generation."
+          fi
+
+      # B7: Upload bao cao allure len Github Actions (neu co)
+      - name: Upload Allure Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-allure-report
+          # neu khong tim thay file nao de upload thi bao warning, khong cho fail job
+          if-no-files-found: warn
+          # liet ke tat ca file can upload
+          path: |
+            playwright-report/
+            allure-results/
+            allure-report/
+            test-results/
+
+      # B8: Gui report qua Slack
