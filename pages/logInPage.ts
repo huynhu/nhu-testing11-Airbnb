@@ -10,7 +10,7 @@ export class LoginPage {
   constructor(page: Page) {
     this.page = page;
     this.emailInput = page.getByLabel("Email");
-    this.passwordInput = page.getByLabel("Password");
+    this.passwordInput = page.getByLabel("Mật khẩu");
     this.loginBtn = page.getByRole("button", { name: "Đăng nhập" });
   }
 
@@ -18,10 +18,6 @@ export class LoginPage {
     await this.emailInput.fill(email);
     await this.passwordInput.fill(password);
     await this.loginBtn.click();
-  }
-
-  async logout() {
-    // Implement logout logic if needed
   }
 
   async isLoggedInSuccessfully(): Promise<boolean> {

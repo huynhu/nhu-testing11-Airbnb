@@ -76,9 +76,9 @@ git clone <your-repo-url>
 cd project-root
 ```
 
-### 2. Install dependencies
+### 2. Install Playwright
 
-npm install
+npm init playwright@latest .
 
 ### 3. Install Playwright browsers
 
@@ -117,3 +117,9 @@ npx playwright test
 • Valid / invalid card
 • Payment failure
 • Retry payment
+
+Allure Report shows
+allure serve allure-results
+
+Install fake data
+npm install @faker-js/faker
