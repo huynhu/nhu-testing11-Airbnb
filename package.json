@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:signup": "playwright test signup --project=chromium --headed",
-    "test:login": "playwright test login --project=chromium --headed",
+    "test:authentication": "playwright test auth --project=chromium --headed",
+    "test:signup": "playwright test auth/signup --project=chromium --headed",
+    "test:signin": "playwright test auth/signin --project=chromium --headed",
     "test:all": "playwright test --project=chromium --headed",
-    "test:updateinfo": "playwright test info_user --project=chromium --headed",
-    "test:homepage": "playwright test homepage --project=chromium --headed"
+    "test:updateinfo": "playwright test profile_user --project=chromium --headed",
+    "test:homepage": "playwright test homepage --project=chromium --headed",
+    "test:roomdetails": "playwright test room_details --project=chromium --headed"
   },
   "repository": {
     "type": "git",

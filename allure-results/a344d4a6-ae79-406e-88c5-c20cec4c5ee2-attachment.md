@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Cyber Logo CyberSoft" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Cyber Logo" [ref=e6]
+          - generic [ref=e7]: CyberSoft
+        - button "Open user menu Henry Nguyen" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: Open user menu
+          - img [ref=e11]
+          - generic [ref=e12]: Henry Nguyen
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "Home" [ref=e16] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e17]:
+            - link "About" [ref=e18] [cursor=pointer]:
+              - /url: /info-user
+          - listitem [ref=e19]:
+            - link "Services" [ref=e20] [cursor=pointer]:
+              - /url: /info-user
+          - listitem [ref=e21]:
+            - link "Pricing" [ref=e22] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e23]:
+            - link "Contact" [ref=e24] [cursor=pointer]:
+              - /url: "#"
+    - paragraph [ref=e29]: Thông tin người dùng Henry Nguyen
+    - generic [ref=e30]:
+      - generic [ref=e32]:
+        - button "Cập nhật ảnh" [ref=e35] [cursor=pointer]
+        - generic [ref=e36]:
+          - paragraph [ref=e38]: Xác minh danh tính
+          - paragraph [ref=e39]: Xác minh danh tính của bạn với huy hiệu xác minh danh tính.
+          - button "Nhận huy hiệu" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: Nhận huy hiệu
+          - paragraph [ref=e43]: Henry Nguyen đã xác nhận
+          - paragraph [ref=e44]:
+            - img [ref=e46]
+            - text: Địa chỉ email
+      - generic [ref=e48]:
+        - paragraph [ref=e49]: Xin chào, tôi là Henry Nguyen
+        - paragraph [ref=e50]: Bắt đầu tham gia vào 2023
+        - button "Chỉnh sửa hồ sơ" [ref=e51] [cursor=pointer]
+        - heading "Phòng đã thuê" [level=1] [ref=e52]
+        - paragraph [ref=e53]: Bạn chưa đặt phòng nào.
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - heading "Giới thiệu" [level=2] [ref=e57]
+          - list [ref=e58]:
+            - listitem [ref=e59]:
+              - link "Phương thức hoạt động của Cyber" [ref=e60] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e61]:
+              - link "Trang tin tức" [ref=e62] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e63]:
+              - link "Nhà đầu tư" [ref=e64] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e65]:
+              - link "Cyber Plus" [ref=e66] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e67]:
+              - link "Cyber Luxe" [ref=e68] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e69]:
+              - link "HotelTonight" [ref=e70] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e71]:
+              - link "Cyber for Work" [ref=e72] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e73]:
+              - link "Nhờ có Host, mọi điều đều có thể" [ref=e74] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e75]:
+              - link "Cơ hội nghề nghiệp" [ref=e76] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e77]:
+              - link "Thư của nhà sáng lập" [ref=e78] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e79]:
+          - heading "Cộng đồng" [level=2] [ref=e80]
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - link "Sự đa đạng và Cảm giác thân thuộc" [ref=e83] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e84]:
+              - link "Tiện nghi phù hợp cho người khuyết tật" [ref=e85] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e86]:
+              - link "Đối tác liên kết Cyber" [ref=e87] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e88]:
+              - link "Chỗ ở cho tuyến đầu" [ref=e89] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e90]:
+              - link "Lượt giới thiệu của khách" [ref=e91] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e92]:
+              - link "CyberSoft.edu.vn" [ref=e93] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e94]:
+          - heading "Đón tiếp khách" [level=2] [ref=e95]
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "Cho thuê nhà" [ref=e98] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e99]:
+              - link "Tổ chức Trải nghiệm trực tuyến" [ref=e100] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e101]:
+              - link "Tổ chức Trải nghiệm" [ref=e102] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e103]:
+              - link "Đón tiếp khách có trách nhiệm" [ref=e104] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e105]:
+              - link "Trung tâm tài nguyên" [ref=e106] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e107]:
+              - link "Trung tâm cộng đồng" [ref=e108] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e109]:
+          - heading "Hỗ trợ" [level=2] [ref=e110]
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - link "Biện pháp ứng phó đại dịch COVID-19" [ref=e113] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e114]:
+              - link "Trung tâm trợ giúp" [ref=e115] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e116]:
+              - link "Các tùy chọn hủy" [ref=e117] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e118]:
+              - link "Hỗ trợ khu dân cư" [ref=e119] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e120]:
+              - link "Tin cây và an toàn" [ref=e121] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+      - generic [ref=e123]:
+        - generic [ref=e124]: © 2022 Nguyễn Nhật Sang, Inc.Quyền riêng tư.Điều khoản.Sơ đồ trang web.
+        - generic [ref=e125]:
+          - img [ref=e127]
+          - text: Tiếng Việt (VN)
+          - text: USD
+          - generic [ref=e129]: Hỗ trợ tài nguyên
+  - generic [ref=e130]:
+    - dialog "Chỉnh sửa hồ sơ":
+      - generic [ref=e131]:
+        - button "Close" [ref=e132] [cursor=pointer]:
+          - img "close" [ref=e134]:
+            - img [ref=e135]
+        - generic [ref=e138]: Chỉnh sửa hồ sơ
+        - generic [ref=e143]:
+          - generic [ref=e146]:
+            - generic "Email" [ref=e148]: "* Email"
+            - generic [ref=e152]:
+              - textbox "vidu@gmail.com" [ref=e153]: henry@yopmail.com
+              - button "close-circle" [ref=e155] [cursor=pointer]:
+                - img "close-circle" [ref=e156]:
+                  - img [ref=e157]
+          - generic [ref=e161]:
+            - generic "Họ tên" [ref=e163]:
+              - text: "* Họ tên"
+              - img "question-circle" [ref=e164]:
+                - img [ref=e165]
+            - generic [ref=e168]:
+              - generic [ref=e171]:
+                - textbox "* Họ tên question-circle" [ref=e172]:
+                  - /placeholder: Nguyễn Văn A
+                  - text: testing11-user-update
+                - button "close-circle" [ref=e174] [cursor=pointer]:
+                  - img "close-circle" [ref=e175]:
+                    - img [ref=e176]
+              - alert [ref=e179]:
+                - generic [ref=e180]: Họ tên không hợp lệ!
+          - generic [ref=e183]:
+            - generic "Số điện thoại" [ref=e185]: "* Số điện thoại"
+            - generic [ref=e189]:
+              - textbox "* Số điện thoại" [ref=e190]:
+                - /placeholder: 0903 123 123
+                - text: "0366434966"
+              - button "close-circle" [ref=e192] [cursor=pointer]:
+                - img "close-circle" [ref=e193]:
+                  - img [ref=e194]
+          - generic [ref=e198]:
+            - generic "Ngày sinh" [ref=e200]: "* Ngày sinh"
+            - generic [ref=e205]:
+              - textbox "* Ngày sinh" [ref=e206]:
+                - /placeholder: Chọn ngày sinh
+                - text: 30/04/1990
+              - generic:
+                - img "calendar":
+                  - img
+              - button "close-circle" [ref=e207] [cursor=pointer]:
+                - img "close-circle" [ref=e208]:
+                  - img [ref=e209]
+          - generic [ref=e213]:
+            - generic "Giới tính" [ref=e215]: "* Giới tính"
+            - generic [ref=e219] [cursor=pointer]:
+              - generic [ref=e220]:
+                - combobox "* Giới tính" [ref=e222]
+                - generic "Nữ" [ref=e223]
+              - generic:
+                - img:
+                  - img
+              - img [ref=e225]:
+                - img [ref=e226]
+        - button "Cập nhật" [active] [ref=e231] [cursor=pointer]:
+          - generic [ref=e232]: Cập nhật
+```

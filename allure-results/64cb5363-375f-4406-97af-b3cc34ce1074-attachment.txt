@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Taya Parker',
+    email: 'auto_1776219514041@test.com',
+    password: 'xukaxakose',
+    phone: '3312876097',
+    birthday: '10/23/2005',
+    avatar: null,
+    gender: true,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:18:41.6345854+07:00'
+} auto_1776219514041@test.com auto_1776219514041@test.com

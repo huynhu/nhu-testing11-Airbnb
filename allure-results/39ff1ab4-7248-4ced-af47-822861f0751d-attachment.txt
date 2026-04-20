@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Johnathan Weissnat',
+    email: 'auto_1776189791020@test.com',
+    password: 'qabumarimi',
+    phone: '8701866553',
+    birthday: '1/31/1995',
+    avatar: null,
+    gender: true,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T01:03:20.2294017+07:00'
+}

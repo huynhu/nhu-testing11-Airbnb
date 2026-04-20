@@ -1,0 +1,8 @@
+10/05/2026
+15/05/2026
+2026-05-10T00:00:00.000Z
+2026-05-15T00:00:00.000Z
+432000000
+Price per night: 13
+Number of nights: 5
+Calculated total price: 65

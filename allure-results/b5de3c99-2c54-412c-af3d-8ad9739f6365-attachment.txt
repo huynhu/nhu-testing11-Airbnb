@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Destini Bogan',
+    email: 'auto_1776219921665@test.com',
+    password: 'cibotimula',
+    phone: '5499199733',
+    birthday: '11/2/1991',
+    avatar: null,
+    gender: true,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:25:29.252588+07:00'
+} auto_1776219921665@test.com auto_1776219921665@test.com

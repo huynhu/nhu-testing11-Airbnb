@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Mr. Ted Auer',
+    email: 'auto_1776220006851@test.com',
+    password: 'luvecinifa',
+    phone: '7775534869',
+    birthday: '8/3/1979',
+    avatar: null,
+    gender: false,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:26:54.4225002+07:00'
+} auto_1776220006851@test.com auto_1776220006851@test.com

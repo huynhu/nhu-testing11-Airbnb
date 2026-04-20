@@ -33,7 +33,7 @@ jobs:
       # B4.1: Tao file .env de luu thong tin dang nhap
       - name: Create .env file
         run: |
-          echo "EMAIL=${{secrets.EMAIL}}" >> .env
+          echo "EMAIL=${{secrets.EMAIL}}" > .env
           echo "PASSWORD=${{secrets.PASSWORD}}" >> .env
       # B5: chay test bang Playwright
       - name: Run Playwright test

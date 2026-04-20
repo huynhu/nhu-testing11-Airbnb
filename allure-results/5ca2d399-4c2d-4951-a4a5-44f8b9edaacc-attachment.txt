@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Emmie Cassin MD',
+    email: 'auto_1776189739488@test.com',
+    password: 'hoyufenuba',
+    phone: '7115324783',
+    birthday: '4/6/1986',
+    avatar: null,
+    gender: true,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T01:02:28.7882069+07:00'
+}

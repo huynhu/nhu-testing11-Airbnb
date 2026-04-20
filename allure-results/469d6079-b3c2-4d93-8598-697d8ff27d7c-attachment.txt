@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Ronaldo Murphy',
+    email: 'auto_1776191762485@test.com',
+    password: 'giteditahe',
+    phone: '412522392',
+    birthday: '8/5/2003',
+    avatar: null,
+    gender: true,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T01:36:11.591189+07:00'
+} auto_1776191762485@test.com auto_1776191762485@test.com

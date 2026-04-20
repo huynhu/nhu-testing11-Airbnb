@@ -1,0 +1,1742 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Cyber Logo CyberSoft" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Cyber Logo" [ref=e6]
+        - generic [ref=e7]: CyberSoft
+      - button "Open user menu Henry Ba Khiem" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Open user menu
+        - img [ref=e11]
+        - generic [ref=e12]: Henry Ba Khiem
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e17]:
+          - link "About" [ref=e18] [cursor=pointer]:
+            - /url: /rooms/ho-chi-minh
+        - listitem [ref=e19]:
+          - link "Services" [ref=e20] [cursor=pointer]:
+            - /url: /rooms/ho-chi-minh
+        - listitem [ref=e21]:
+          - link "Pricing" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e23]:
+          - link "Contact" [ref=e24] [cursor=pointer]:
+            - /url: "#"
+  - paragraph [ref=e28]: Hồ Chí Minh
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31] [cursor=pointer]:
+        - paragraph [ref=e32]: Địa điểm
+        - paragraph [ref=e33]: Hồ Chí Minh
+      - paragraph [ref=e37] [cursor=pointer]: 21/04/2026 – 28/04/2026
+      - generic [ref=e40] [cursor=pointer]:
+        - paragraph [ref=e41]: Thêm khách
+        - img "search" [ref=e43]:
+          - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Loại nơi ở" [ref=e47] [cursor=pointer]
+      - button "Giá" [ref=e48] [cursor=pointer]
+      - button "Đặt ngay" [ref=e49] [cursor=pointer]
+      - button "Phòng và phòng ngủ" [ref=e50] [cursor=pointer]
+      - button "Bộ lọc khác" [ref=e51] [cursor=pointer]
+  - generic [ref=e52]:
+    - generic [ref=e53]:
+      - paragraph [ref=e54]: Có 61 chỗ ở tại Hồ Chí Minh • 21/04/2026 – 28/04/2026
+      - heading "Chỗ ở tại khu vực bản đồ đã chọn" [level=1] [ref=e55]
+      - generic [ref=e56]:
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh NewApt D1 - Cozy studio - NU apt - 500m Bui Vien! 3 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 28 / đêm" [ref=e59] [cursor=pointer]:
+          - /url: /room-detail/1
+          - generic [ref=e62]:
+            - generic [ref=e64]:
+              - generic: prev
+              - generic [ref=e71]: next
+              - button "Guest favorite" [ref=e78]:
+                - generic [ref=e79]: Guest favorite
+              - button [ref=e80]:
+                - img [ref=e81]
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - paragraph [ref=e86]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e87]: NewApt D1 - Cozy studio - NU apt - 500m Bui Vien!
+                - paragraph [ref=e89]: 3 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e90]:
+                  - generic [ref=e91]: Wifi •
+                  - generic [ref=e92]: Máy giặt •
+                  - generic [ref=e93]: Tivi •
+                  - generic [ref=e94]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e95]:
+                - generic [ref=e96]: $ 28
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh STUDIO MỚI NETFLIX MIỄN PHÍ/ĐỖ XE MIỄN PHÍ 2 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi $ 21 / đêm" [ref=e99] [cursor=pointer]:
+          - /url: /room-detail/2
+          - generic [ref=e102]:
+            - generic [ref=e104]:
+              - generic: prev
+              - generic [ref=e111]: next
+              - button "Guest favorite" [ref=e118]:
+                - generic [ref=e119]: Guest favorite
+              - button [ref=e120]:
+                - img [ref=e121]
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - paragraph [ref=e126]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e127]: STUDIO MỚI NETFLIX MIỄN PHÍ/ĐỖ XE MIỄN PHÍ
+                - paragraph [ref=e129]: 2 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e130]:
+                  - generic [ref=e131]: Wifi •
+                  - generic [ref=e132]: Bếp •
+                  - generic [ref=e133]: Điều hòa nhiệt độ •
+                  - generic [ref=e134]: Máy giặt •
+                  - text: Tivi
+              - generic [ref=e135]:
+                - generic [ref=e136]: $ 21
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng sang trọng với ban công tại D.1 - 200m đến Bitexco 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 17 / đêm" [ref=e139] [cursor=pointer]:
+          - /url: /room-detail/3
+          - generic [ref=e142]:
+            - generic [ref=e144]:
+              - generic: prev
+              - generic [ref=e151]: next
+              - button "Guest favorite" [ref=e158]:
+                - generic [ref=e159]: Guest favorite
+              - button [ref=e160]:
+                - img [ref=e161]
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - paragraph [ref=e166]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e167]: Phòng sang trọng với ban công tại D.1 - 200m đến Bitexco
+                - paragraph [ref=e169]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e170]:
+                  - generic [ref=e171]: Máy giặt •
+                  - generic [ref=e172]: Tivi •
+                  - generic [ref=e173]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e174]:
+                - generic [ref=e175]: $ 17
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng siêu đẹp 2 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Điều hòa nhiệt độ • Máy giặt • Đỗ xe • Hồ bơi $ 36 / đêm" [ref=e178] [cursor=pointer]:
+          - /url: /room-detail/247237
+          - generic [ref=e181]:
+            - generic [ref=e183]:
+              - generic: prev
+              - generic [ref=e190]: next
+              - button "Guest favorite" [ref=e197]:
+                - generic [ref=e198]: Guest favorite
+              - button [ref=e199]:
+                - img [ref=e200]
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - generic [ref=e204]:
+                  - paragraph [ref=e205]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e206]: Phòng siêu đẹp
+                - paragraph [ref=e208]: 2 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                - paragraph [ref=e209]:
+                  - generic [ref=e210]: Wifi •
+                  - generic [ref=e211]: Điều hòa nhiệt độ •
+                  - generic [ref=e212]: Máy giặt •
+                  - generic [ref=e213]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e214]:
+                - generic [ref=e215]: $ 36
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 1776458829008 5 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Máy giặt • Đỗ xe $ 1172 / đêm" [ref=e218] [cursor=pointer]:
+          - /url: /room-detail/250242
+          - generic [ref=e221]:
+            - generic [ref=e223]:
+              - generic: prev
+              - generic [ref=e230]: next
+              - button "Guest favorite" [ref=e237]:
+                - generic [ref=e238]: Guest favorite
+              - button [ref=e239]:
+                - img [ref=e240]
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - paragraph [ref=e245]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e246]: Phong VIP 1776458829008
+                - paragraph [ref=e248]: 5 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                - paragraph [ref=e249]:
+                  - generic [ref=e250]: Wifi •
+                  - generic [ref=e251]: Máy giặt •
+                  - text: Đỗ xe
+              - generic [ref=e252]:
+                - generic [ref=e253]: $ 1172
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 1 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Điều hòa nhiệt độ • Máy giặt • Hồ bơi $ 1354 / đêm" [ref=e256] [cursor=pointer]:
+          - /url: /room-detail/250243
+          - generic [ref=e259]:
+            - generic [ref=e261]:
+              - generic: prev
+              - generic [ref=e268]: next
+              - button "Guest favorite" [ref=e275]:
+                - generic [ref=e276]: Guest favorite
+              - button [ref=e277]:
+                - img [ref=e278]
+            - generic [ref=e280]:
+              - generic [ref=e281]:
+                - generic [ref=e282]:
+                  - paragraph [ref=e283]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e284]: Phong VIP
+                - paragraph [ref=e286]: 1 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e287]:
+                  - generic [ref=e288]: Wifi •
+                  - generic [ref=e289]: Điều hòa nhiệt độ •
+                  - generic [ref=e290]: Máy giặt •
+                  - text: Hồ bơi
+              - generic [ref=e291]:
+                - generic [ref=e292]: $ 1354
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Deluxe 1 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 1530 / đêm" [ref=e295] [cursor=pointer]:
+          - /url: /room-detail/250244
+          - generic [ref=e298]:
+            - generic [ref=e300]:
+              - generic: prev
+              - generic [ref=e307]: next
+              - button "Guest favorite" [ref=e314]:
+                - generic [ref=e315]: Guest favorite
+              - button [ref=e316]:
+                - img [ref=e317]
+            - generic [ref=e319]:
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - paragraph [ref=e322]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e323]: Phong Deluxe
+                - paragraph [ref=e325]: 1 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e326]:
+                  - generic [ref=e327]: Wifi •
+                  - generic [ref=e328]: Điều hòa nhiệt độ •
+                  - generic [ref=e329]: Máy giặt •
+                  - generic [ref=e330]: Tivi •
+                  - generic [ref=e331]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e332]:
+                - generic [ref=e333]: $ 1530
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Điều hòa nhiệt độ • Đỗ xe $ 1666 / đêm" [ref=e336] [cursor=pointer]:
+          - /url: /room-detail/250245
+          - generic [ref=e339]:
+            - generic [ref=e341]:
+              - generic: prev
+              - generic [ref=e348]: next
+              - button "Guest favorite" [ref=e355]:
+                - generic [ref=e356]: Guest favorite
+              - button [ref=e357]:
+                - img [ref=e358]
+            - generic [ref=e360]:
+              - generic [ref=e361]:
+                - generic [ref=e362]:
+                  - paragraph [ref=e363]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e364]: Phong VIP
+                - paragraph [ref=e366]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e367]:
+                  - generic [ref=e368]: Wifi •
+                  - generic [ref=e369]: Điều hòa nhiệt độ •
+                  - text: Đỗ xe
+              - generic [ref=e370]:
+                - generic [ref=e371]: $ 1666
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Basic 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Máy giặt • Đỗ xe • Hồ bơi $ 1084 / đêm" [ref=e374] [cursor=pointer]:
+          - /url: /room-detail/250246
+          - generic [ref=e377]:
+            - generic [ref=e379]:
+              - generic: prev
+              - generic [ref=e386]: next
+              - button "Guest favorite" [ref=e393]:
+                - generic [ref=e394]: Guest favorite
+              - button [ref=e395]:
+                - img [ref=e396]
+            - generic [ref=e398]:
+              - generic [ref=e399]:
+                - generic [ref=e400]:
+                  - paragraph [ref=e401]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e402]: Phong Basic
+                - paragraph [ref=e404]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e405]:
+                  - generic [ref=e406]: Wifi •
+                  - generic [ref=e407]: Bếp •
+                  - generic [ref=e408]: Máy giặt •
+                  - generic [ref=e409]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e410]:
+                - generic [ref=e411]: $ 1084
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Đỗ xe $ 501 / đêm" [ref=e414] [cursor=pointer]:
+          - /url: /room-detail/250247
+          - generic [ref=e417]:
+            - generic [ref=e419]:
+              - generic: prev
+              - generic [ref=e426]: next
+              - button "Guest favorite" [ref=e433]:
+                - generic [ref=e434]: Guest favorite
+              - button [ref=e435]:
+                - img [ref=e436]
+            - generic [ref=e438]:
+              - generic [ref=e439]:
+                - generic [ref=e440]:
+                  - paragraph [ref=e441]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e442]: Phong VIP
+                - paragraph [ref=e444]: 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e445]:
+                  - generic [ref=e446]: Wifi •
+                  - generic [ref=e447]: Bếp •
+                  - generic [ref=e448]: Điều hòa nhiệt độ •
+                  - generic [ref=e449]: Máy giặt •
+                  - text: Đỗ xe
+              - generic [ref=e450]:
+                - generic [ref=e451]: $ 501
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Basic 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 1166 / đêm" [ref=e454] [cursor=pointer]:
+          - /url: /room-detail/250248
+          - generic [ref=e457]:
+            - generic [ref=e459]:
+              - generic: prev
+              - generic [ref=e466]: next
+              - button "Guest favorite" [ref=e473]:
+                - generic [ref=e474]: Guest favorite
+              - button [ref=e475]:
+                - img [ref=e476]
+            - generic [ref=e478]:
+              - generic [ref=e479]:
+                - generic [ref=e480]:
+                  - paragraph [ref=e481]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e482]: Phong Basic
+                - paragraph [ref=e484]: 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e485]:
+                  - generic [ref=e486]: Wifi •
+                  - generic [ref=e487]: Điều hòa nhiệt độ •
+                  - generic [ref=e488]: Máy giặt •
+                  - generic [ref=e489]: Tivi •
+                  - generic [ref=e490]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e491]:
+                - generic [ref=e492]: $ 1166
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 2 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Tivi • Đỗ xe $ 701 / đêm" [ref=e495] [cursor=pointer]:
+          - /url: /room-detail/250249
+          - generic [ref=e498]:
+            - generic [ref=e500]:
+              - generic: prev
+              - generic [ref=e507]: next
+              - button "Guest favorite" [ref=e514]:
+                - generic [ref=e515]: Guest favorite
+              - button [ref=e516]:
+                - img [ref=e517]
+            - generic [ref=e519]:
+              - generic [ref=e520]:
+                - generic [ref=e521]:
+                  - paragraph [ref=e522]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e523]: Phong VIP
+                - paragraph [ref=e525]: 2 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e526]:
+                  - generic [ref=e527]: Wifi •
+                  - generic [ref=e528]: Bếp •
+                  - generic [ref=e529]: Điều hòa nhiệt độ •
+                  - generic [ref=e530]: Tivi •
+                  - text: Đỗ xe
+              - generic [ref=e531]:
+                - generic [ref=e532]: $ 701
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Basic 3 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Máy giặt • Tivi • Đỗ xe $ 1768 / đêm" [ref=e535] [cursor=pointer]:
+          - /url: /room-detail/250250
+          - generic [ref=e538]:
+            - generic [ref=e540]:
+              - generic: prev
+              - generic [ref=e547]: next
+              - button "Guest favorite" [ref=e554]:
+                - generic [ref=e555]: Guest favorite
+              - button [ref=e556]:
+                - img [ref=e557]
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - generic [ref=e561]:
+                  - paragraph [ref=e562]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e563]: Phong Basic
+                - paragraph [ref=e565]: 3 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e566]:
+                  - generic [ref=e567]: Wifi •
+                  - generic [ref=e568]: Bếp •
+                  - generic [ref=e569]: Máy giặt •
+                  - generic [ref=e570]: Tivi •
+                  - text: Đỗ xe
+              - generic [ref=e571]:
+                - generic [ref=e572]: $ 1768
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Deluxe 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Điều hòa nhiệt độ • Máy giặt • Hồ bơi $ 635 / đêm" [ref=e575] [cursor=pointer]:
+          - /url: /room-detail/250251
+          - generic [ref=e578]:
+            - generic [ref=e580]:
+              - generic: prev
+              - generic [ref=e587]: next
+              - button "Guest favorite" [ref=e594]:
+                - generic [ref=e595]: Guest favorite
+              - button [ref=e596]:
+                - img [ref=e597]
+            - generic [ref=e599]:
+              - generic [ref=e600]:
+                - generic [ref=e601]:
+                  - paragraph [ref=e602]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e603]: Phong Deluxe
+                - paragraph [ref=e605]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e606]:
+                  - generic [ref=e607]: Wifi •
+                  - generic [ref=e608]: Điều hòa nhiệt độ •
+                  - generic [ref=e609]: Máy giặt •
+                  - text: Hồ bơi
+              - generic [ref=e610]:
+                - generic [ref=e611]: $ 635
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong View Bien 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Máy giặt • Đỗ xe $ 1028 / đêm" [ref=e614] [cursor=pointer]:
+          - /url: /room-detail/250252
+          - generic [ref=e617]:
+            - generic [ref=e619]:
+              - generic: prev
+              - generic [ref=e626]: next
+              - button "Guest favorite" [ref=e633]:
+                - generic [ref=e634]: Guest favorite
+              - button [ref=e635]:
+                - img [ref=e636]
+            - generic [ref=e638]:
+              - generic [ref=e639]:
+                - generic [ref=e640]:
+                  - paragraph [ref=e641]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e642]: Phong View Bien
+                - paragraph [ref=e644]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e645]:
+                  - generic [ref=e646]: Wifi •
+                  - generic [ref=e647]: Bếp •
+                  - generic [ref=e648]: Máy giặt •
+                  - text: Đỗ xe
+              - generic [ref=e649]:
+                - generic [ref=e650]: $ 1028
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 2 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Điều hòa nhiệt độ $ 1121 / đêm" [ref=e653] [cursor=pointer]:
+          - /url: /room-detail/250253
+          - generic [ref=e656]:
+            - generic [ref=e658]:
+              - generic: prev
+              - generic [ref=e665]: next
+              - button "Guest favorite" [ref=e672]:
+                - generic [ref=e673]: Guest favorite
+              - button [ref=e674]:
+                - img [ref=e675]
+            - generic [ref=e677]:
+              - generic [ref=e678]:
+                - generic [ref=e679]:
+                  - paragraph [ref=e680]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e681]: Phong VIP
+                - paragraph [ref=e683]: 2 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                - paragraph [ref=e684]:
+                  - generic [ref=e685]: Wifi •
+                  - text: Điều hòa nhiệt độ
+              - generic [ref=e686]:
+                - generic [ref=e687]: $ 1121
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 4 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Tivi • Hồ bơi $ 1531 / đêm" [ref=e690] [cursor=pointer]:
+          - /url: /room-detail/250254
+          - generic [ref=e693]:
+            - generic [ref=e695]:
+              - generic: prev
+              - generic [ref=e702]: next
+              - button "Guest favorite" [ref=e709]:
+                - generic [ref=e710]: Guest favorite
+              - button [ref=e711]:
+                - img [ref=e712]
+            - generic [ref=e714]:
+              - generic [ref=e715]:
+                - generic [ref=e716]:
+                  - paragraph [ref=e717]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e718]: Phong VIP
+                - paragraph [ref=e720]: 4 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e721]:
+                  - generic [ref=e722]: Wifi •
+                  - generic [ref=e723]: Bếp •
+                  - generic [ref=e724]: Tivi •
+                  - text: Hồ bơi
+              - generic [ref=e725]:
+                - generic [ref=e726]: $ 1531
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Deluxe 1 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Điều hòa nhiệt độ • Máy giặt • Tivi $ 1851 / đêm" [ref=e729] [cursor=pointer]:
+          - /url: /room-detail/250255
+          - generic [ref=e732]:
+            - generic [ref=e734]:
+              - generic: prev
+              - generic [ref=e741]: next
+              - button "Guest favorite" [ref=e748]:
+                - generic [ref=e749]: Guest favorite
+              - button [ref=e750]:
+                - img [ref=e751]
+            - generic [ref=e753]:
+              - generic [ref=e754]:
+                - generic [ref=e755]:
+                  - paragraph [ref=e756]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e757]: Phong Deluxe
+                - paragraph [ref=e759]: 1 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e760]:
+                  - generic [ref=e761]: Wifi •
+                  - generic [ref=e762]: Điều hòa nhiệt độ •
+                  - generic [ref=e763]: Máy giặt •
+                  - text: Tivi
+              - generic [ref=e764]:
+                - generic [ref=e765]: $ 1851
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 5 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 1986 / đêm" [ref=e768] [cursor=pointer]:
+          - /url: /room-detail/250256
+          - generic [ref=e771]:
+            - generic [ref=e773]:
+              - generic: prev
+              - generic [ref=e780]: next
+              - button "Guest favorite" [ref=e787]:
+                - generic [ref=e788]: Guest favorite
+              - button [ref=e789]:
+                - img [ref=e790]
+            - generic [ref=e792]:
+              - generic [ref=e793]:
+                - generic [ref=e794]:
+                  - paragraph [ref=e795]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e796]: Phong VIP
+                - paragraph [ref=e798]: 5 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e799]:
+                  - generic [ref=e800]: Wifi •
+                  - generic [ref=e801]: Bếp •
+                  - generic [ref=e802]: Máy giặt •
+                  - generic [ref=e803]: Tivi •
+                  - generic [ref=e804]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e805]:
+                - generic [ref=e806]: $ 1986
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Tivi • Đỗ xe • Hồ bơi $ 893 / đêm" [ref=e809] [cursor=pointer]:
+          - /url: /room-detail/250258
+          - generic [ref=e812]:
+            - generic [ref=e814]:
+              - generic: prev
+              - generic [ref=e821]: next
+              - button "Guest favorite" [ref=e828]:
+                - generic [ref=e829]: Guest favorite
+              - button [ref=e830]:
+                - img [ref=e831]
+            - generic [ref=e833]:
+              - generic [ref=e834]:
+                - generic [ref=e835]:
+                  - paragraph [ref=e836]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e837]: Phong VIP
+                - paragraph [ref=e839]: 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e840]:
+                  - generic [ref=e841]: Wifi •
+                  - generic [ref=e842]: Bếp •
+                  - generic [ref=e843]: Điều hòa nhiệt độ •
+                  - generic [ref=e844]: Tivi •
+                  - generic [ref=e845]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e846]:
+                - generic [ref=e847]: $ 893
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong View Bien 1 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Bếp • Máy giặt • Tivi • Đỗ xe $ 585 / đêm" [ref=e850] [cursor=pointer]:
+          - /url: /room-detail/250260
+          - generic [ref=e853]:
+            - generic [ref=e855]:
+              - generic: prev
+              - generic [ref=e862]: next
+              - button "Guest favorite" [ref=e869]:
+                - generic [ref=e870]: Guest favorite
+              - button [ref=e871]:
+                - img [ref=e872]
+            - generic [ref=e874]:
+              - generic [ref=e875]:
+                - generic [ref=e876]:
+                  - paragraph [ref=e877]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e878]: Phong View Bien
+                - paragraph [ref=e880]: 1 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                - paragraph [ref=e881]:
+                  - generic [ref=e882]: Wifi •
+                  - generic [ref=e883]: Bếp •
+                  - generic [ref=e884]: Máy giặt •
+                  - generic [ref=e885]: Tivi •
+                  - text: Đỗ xe
+              - generic [ref=e886]:
+                - generic [ref=e887]: $ 585
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Điều hòa nhiệt độ • Máy giặt • Đỗ xe $ 694 / đêm" [ref=e890] [cursor=pointer]:
+          - /url: /room-detail/250261
+          - generic [ref=e893]:
+            - generic [ref=e895]:
+              - generic: prev
+              - generic [ref=e902]: next
+              - button "Guest favorite" [ref=e909]:
+                - generic [ref=e910]: Guest favorite
+              - button [ref=e911]:
+                - img [ref=e912]
+            - generic [ref=e914]:
+              - generic [ref=e915]:
+                - generic [ref=e916]:
+                  - paragraph [ref=e917]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e918]: Phong VIP
+                - paragraph [ref=e920]: 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e921]:
+                  - generic [ref=e922]: Wifi •
+                  - generic [ref=e923]: Điều hòa nhiệt độ •
+                  - generic [ref=e924]: Máy giặt •
+                  - text: Đỗ xe
+              - generic [ref=e925]:
+                - generic [ref=e926]: $ 694
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong View Bien 1 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe $ 1255 / đêm" [ref=e929] [cursor=pointer]:
+          - /url: /room-detail/250262
+          - generic [ref=e932]:
+            - generic [ref=e934]:
+              - generic: prev
+              - generic [ref=e941]: next
+              - button "Guest favorite" [ref=e948]:
+                - generic [ref=e949]: Guest favorite
+              - button [ref=e950]:
+                - img [ref=e951]
+            - generic [ref=e953]:
+              - generic [ref=e954]:
+                - generic [ref=e955]:
+                  - paragraph [ref=e956]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e957]: Phong View Bien
+                - paragraph [ref=e959]: 1 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e960]:
+                  - generic [ref=e961]: Wifi •
+                  - generic [ref=e962]: Bếp •
+                  - generic [ref=e963]: Điều hòa nhiệt độ •
+                  - generic [ref=e964]: Máy giặt •
+                  - generic [ref=e965]: Tivi •
+                  - text: Đỗ xe
+              - generic [ref=e966]:
+                - generic [ref=e967]: $ 1255
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Hồ bơi $ 719 / đêm" [ref=e970] [cursor=pointer]:
+          - /url: /room-detail/250264
+          - generic [ref=e973]:
+            - generic [ref=e975]:
+              - generic: prev
+              - generic [ref=e982]: next
+              - button "Guest favorite" [ref=e989]:
+                - generic [ref=e990]: Guest favorite
+              - button [ref=e991]:
+                - img [ref=e992]
+            - generic [ref=e994]:
+              - generic [ref=e995]:
+                - generic [ref=e996]:
+                  - paragraph [ref=e997]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e998]: Phong VIP
+                - paragraph [ref=e1000]: 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e1001]:
+                  - generic [ref=e1002]: Wifi •
+                  - generic [ref=e1003]: Bếp •
+                  - generic [ref=e1004]: Điều hòa nhiệt độ •
+                  - generic [ref=e1005]: Máy giặt •
+                  - generic [ref=e1006]: Tivi •
+                  - text: Hồ bơi
+              - generic [ref=e1007]:
+                - generic [ref=e1008]: $ 719
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Basic 4 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Tivi • Hồ bơi $ 1986 / đêm" [ref=e1011] [cursor=pointer]:
+          - /url: /room-detail/250265
+          - generic [ref=e1014]:
+            - generic [ref=e1016]:
+              - generic: prev
+              - generic [ref=e1023]: next
+              - button "Guest favorite" [ref=e1030]:
+                - generic [ref=e1031]: Guest favorite
+              - button [ref=e1032]:
+                - img [ref=e1033]
+            - generic [ref=e1035]:
+              - generic [ref=e1036]:
+                - generic [ref=e1037]:
+                  - paragraph [ref=e1038]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1039]: Phong Basic
+                - paragraph [ref=e1041]: 4 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                - paragraph [ref=e1042]:
+                  - generic [ref=e1043]: Wifi •
+                  - generic [ref=e1044]: Tivi •
+                  - text: Hồ bơi
+              - generic [ref=e1045]:
+                - generic [ref=e1046]: $ 1986
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm Wifi • Điều hòa nhiệt độ • Hồ bơi $ 648 / đêm" [ref=e1049] [cursor=pointer]:
+          - /url: /room-detail/250266
+          - generic [ref=e1052]:
+            - generic [ref=e1054]:
+              - generic: prev
+              - generic [ref=e1061]: next
+              - button "Guest favorite" [ref=e1068]:
+                - generic [ref=e1069]: Guest favorite
+              - button [ref=e1070]:
+                - img [ref=e1071]
+            - generic [ref=e1073]:
+              - generic [ref=e1074]:
+                - generic [ref=e1075]:
+                  - paragraph [ref=e1076]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1077]: Phong VIP
+                - paragraph [ref=e1079]: 4 khách • 3 phòng ngủ • 3 giường • 3 phòng tắm
+                - paragraph [ref=e1080]:
+                  - generic [ref=e1081]: Wifi •
+                  - generic [ref=e1082]: Điều hòa nhiệt độ •
+                  - text: Hồ bơi
+              - generic [ref=e1083]:
+                - generic [ref=e1084]: $ 648
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong VIP 2 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Bếp • Máy giặt • Đỗ xe $ 557 / đêm" [ref=e1087] [cursor=pointer]:
+          - /url: /room-detail/250267
+          - generic [ref=e1090]:
+            - generic [ref=e1092]:
+              - generic: prev
+              - generic [ref=e1099]: next
+              - button "Guest favorite" [ref=e1106]:
+                - generic [ref=e1107]: Guest favorite
+              - button [ref=e1108]:
+                - img [ref=e1109]
+            - generic [ref=e1111]:
+              - generic [ref=e1112]:
+                - generic [ref=e1113]:
+                  - paragraph [ref=e1114]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1115]: Phong VIP
+                - paragraph [ref=e1117]: 2 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                - paragraph [ref=e1118]:
+                  - generic [ref=e1119]: Wifi •
+                  - generic [ref=e1120]: Bếp •
+                  - generic [ref=e1121]: Máy giặt •
+                  - text: Đỗ xe
+              - generic [ref=e1122]:
+                - generic [ref=e1123]: $ 557
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Deluxe 3 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Điều hòa nhiệt độ • Đỗ xe • Hồ bơi $ 1891 / đêm" [ref=e1126] [cursor=pointer]:
+          - /url: /room-detail/250269
+          - generic [ref=e1129]:
+            - generic [ref=e1131]:
+              - generic: prev
+              - generic [ref=e1138]: next
+              - button "Guest favorite" [ref=e1145]:
+                - generic [ref=e1146]: Guest favorite
+              - button [ref=e1147]:
+                - img [ref=e1148]
+            - generic [ref=e1150]:
+              - generic [ref=e1151]:
+                - generic [ref=e1152]:
+                  - paragraph [ref=e1153]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1154]: Phong Deluxe
+                - paragraph [ref=e1156]: 3 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1157]:
+                  - generic [ref=e1158]: Wifi •
+                  - generic [ref=e1159]: Điều hòa nhiệt độ •
+                  - generic [ref=e1160]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1161]:
+                - generic [ref=e1162]: $ 1891
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Deluxe 1 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Điều hòa nhiệt độ • Đỗ xe $ 1727 / đêm" [ref=e1165] [cursor=pointer]:
+          - /url: /room-detail/250270
+          - generic [ref=e1168]:
+            - generic [ref=e1170]:
+              - generic: prev
+              - generic [ref=e1177]: next
+              - button "Guest favorite" [ref=e1184]:
+                - generic [ref=e1185]: Guest favorite
+              - button [ref=e1186]:
+                - img [ref=e1187]
+            - generic [ref=e1189]:
+              - generic [ref=e1190]:
+                - generic [ref=e1191]:
+                  - paragraph [ref=e1192]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1193]: Phong Deluxe
+                - paragraph [ref=e1195]: 1 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                - paragraph [ref=e1196]:
+                  - generic [ref=e1197]: Wifi •
+                  - generic [ref=e1198]: Điều hòa nhiệt độ •
+                  - text: Đỗ xe
+              - generic [ref=e1199]:
+                - generic [ref=e1200]: $ 1727
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong Deluxe 3 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Điều hòa nhiệt độ • Máy giặt $ 669 / đêm" [ref=e1203] [cursor=pointer]:
+          - /url: /room-detail/250271
+          - generic [ref=e1206]:
+            - generic [ref=e1208]:
+              - generic: prev
+              - generic [ref=e1215]: next
+              - button "Guest favorite" [ref=e1222]:
+                - generic [ref=e1223]: Guest favorite
+              - button [ref=e1224]:
+                - img [ref=e1225]
+            - generic [ref=e1227]:
+              - generic [ref=e1228]:
+                - generic [ref=e1229]:
+                  - paragraph [ref=e1230]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1231]: Phong Deluxe
+                - paragraph [ref=e1233]: 3 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                - paragraph [ref=e1234]:
+                  - generic [ref=e1235]: Wifi •
+                  - generic [ref=e1236]: Điều hòa nhiệt độ •
+                  - text: Máy giặt
+              - generic [ref=e1237]:
+                - generic [ref=e1238]: $ 669
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong View Bien 4 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe $ 1664 / đêm" [ref=e1241] [cursor=pointer]:
+          - /url: /room-detail/250272
+          - generic [ref=e1244]:
+            - generic [ref=e1246]:
+              - generic: prev
+              - generic [ref=e1253]: next
+              - button "Guest favorite" [ref=e1260]:
+                - generic [ref=e1261]: Guest favorite
+              - button [ref=e1262]:
+                - img [ref=e1263]
+            - generic [ref=e1265]:
+              - generic [ref=e1266]:
+                - generic [ref=e1267]:
+                  - paragraph [ref=e1268]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1269]: Phong View Bien
+                - paragraph [ref=e1271]: 4 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1272]:
+                  - generic [ref=e1273]: Wifi •
+                  - generic [ref=e1274]: Bếp •
+                  - generic [ref=e1275]: Điều hòa nhiệt độ •
+                  - generic [ref=e1276]: Máy giặt •
+                  - generic [ref=e1277]: Tivi •
+                  - text: Đỗ xe
+              - generic [ref=e1278]:
+                - generic [ref=e1279]: $ 1664
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1282] [cursor=pointer]:
+          - /url: /room-detail/250277
+          - generic [ref=e1285]:
+            - generic [ref=e1287]:
+              - generic: prev
+              - generic [ref=e1294]: next
+              - button "Guest favorite" [ref=e1301]:
+                - generic [ref=e1302]: Guest favorite
+              - button [ref=e1303]:
+                - img [ref=e1304]
+            - generic [ref=e1306]:
+              - generic [ref=e1307]:
+                - generic [ref=e1308]:
+                  - paragraph [ref=e1309]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1310]: Phòng test Playwright
+                - paragraph [ref=e1312]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1313]:
+                  - generic [ref=e1314]: Wifi •
+                  - generic [ref=e1315]: Bếp •
+                  - generic [ref=e1316]: Điều hòa nhiệt độ •
+                  - generic [ref=e1317]: Máy giặt •
+                  - generic [ref=e1318]: Tivi •
+                  - generic [ref=e1319]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1320]:
+                - generic [ref=e1321]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1324] [cursor=pointer]:
+          - /url: /room-detail/250279
+          - generic [ref=e1327]:
+            - generic [ref=e1329]:
+              - generic: prev
+              - generic [ref=e1336]: next
+              - button "Guest favorite" [ref=e1343]:
+                - generic [ref=e1344]: Guest favorite
+              - button [ref=e1345]:
+                - img [ref=e1346]
+            - generic [ref=e1348]:
+              - generic [ref=e1349]:
+                - generic [ref=e1350]:
+                  - paragraph [ref=e1351]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1352]: Phòng test Playwright
+                - paragraph [ref=e1354]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1355]:
+                  - generic [ref=e1356]: Wifi •
+                  - generic [ref=e1357]: Bếp •
+                  - generic [ref=e1358]: Điều hòa nhiệt độ •
+                  - generic [ref=e1359]: Máy giặt •
+                  - generic [ref=e1360]: Tivi •
+                  - generic [ref=e1361]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1362]:
+                - generic [ref=e1363]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1366] [cursor=pointer]:
+          - /url: /room-detail/250280
+          - generic [ref=e1369]:
+            - generic [ref=e1371]:
+              - generic: prev
+              - generic [ref=e1378]: next
+              - button "Guest favorite" [ref=e1385]:
+                - generic [ref=e1386]: Guest favorite
+              - button [ref=e1387]:
+                - img [ref=e1388]
+            - generic [ref=e1390]:
+              - generic [ref=e1391]:
+                - generic [ref=e1392]:
+                  - paragraph [ref=e1393]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1394]: Phòng test Playwright
+                - paragraph [ref=e1396]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1397]:
+                  - generic [ref=e1398]: Wifi •
+                  - generic [ref=e1399]: Bếp •
+                  - generic [ref=e1400]: Điều hòa nhiệt độ •
+                  - generic [ref=e1401]: Máy giặt •
+                  - generic [ref=e1402]: Tivi •
+                  - generic [ref=e1403]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1404]:
+                - generic [ref=e1405]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1408] [cursor=pointer]:
+          - /url: /room-detail/250282
+          - generic [ref=e1411]:
+            - generic [ref=e1413]:
+              - generic: prev
+              - generic [ref=e1420]: next
+              - button "Guest favorite" [ref=e1427]:
+                - generic [ref=e1428]: Guest favorite
+              - button [ref=e1429]:
+                - img [ref=e1430]
+            - generic [ref=e1432]:
+              - generic [ref=e1433]:
+                - generic [ref=e1434]:
+                  - paragraph [ref=e1435]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1436]: Phòng test Playwright
+                - paragraph [ref=e1438]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1439]:
+                  - generic [ref=e1440]: Wifi •
+                  - generic [ref=e1441]: Bếp •
+                  - generic [ref=e1442]: Điều hòa nhiệt độ •
+                  - generic [ref=e1443]: Máy giặt •
+                  - generic [ref=e1444]: Tivi •
+                  - generic [ref=e1445]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1446]:
+                - generic [ref=e1447]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1450] [cursor=pointer]:
+          - /url: /room-detail/250283
+          - generic [ref=e1453]:
+            - generic [ref=e1455]:
+              - generic: prev
+              - generic [ref=e1462]: next
+              - button "Guest favorite" [ref=e1469]:
+                - generic [ref=e1470]: Guest favorite
+              - button [ref=e1471]:
+                - img [ref=e1472]
+            - generic [ref=e1474]:
+              - generic [ref=e1475]:
+                - generic [ref=e1476]:
+                  - paragraph [ref=e1477]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1478]: Phòng test Playwright
+                - paragraph [ref=e1480]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1481]:
+                  - generic [ref=e1482]: Wifi •
+                  - generic [ref=e1483]: Bếp •
+                  - generic [ref=e1484]: Điều hòa nhiệt độ •
+                  - generic [ref=e1485]: Máy giặt •
+                  - generic [ref=e1486]: Tivi •
+                  - generic [ref=e1487]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1488]:
+                - generic [ref=e1489]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Studio trung tâm Quận 1 2 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Điều hòa nhiệt độ • Tivi • Đỗ xe $ 500000 / đêm" [ref=e1492] [cursor=pointer]:
+          - /url: /room-detail/250287
+          - generic [ref=e1495]:
+            - generic [ref=e1497]:
+              - generic: prev
+              - generic [ref=e1504]: next
+              - button "Guest favorite" [ref=e1511]:
+                - generic [ref=e1512]: Guest favorite
+              - button [ref=e1513]:
+                - img [ref=e1514]
+            - generic [ref=e1516]:
+              - generic [ref=e1517]:
+                - generic [ref=e1518]:
+                  - paragraph [ref=e1519]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1520]: Studio trung tâm Quận 1
+                - paragraph [ref=e1522]: 2 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1523]:
+                  - generic [ref=e1524]: Wifi •
+                  - generic [ref=e1525]: Điều hòa nhiệt độ •
+                  - generic [ref=e1526]: Tivi •
+                  - text: Đỗ xe
+              - generic [ref=e1527]:
+                - generic [ref=e1528]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1531] [cursor=pointer]:
+          - /url: /room-detail/250290
+          - generic [ref=e1534]:
+            - generic [ref=e1536]:
+              - generic: prev
+              - generic [ref=e1543]: next
+              - button "Guest favorite" [ref=e1550]:
+                - generic [ref=e1551]: Guest favorite
+              - button [ref=e1552]:
+                - img [ref=e1553]
+            - generic [ref=e1555]:
+              - generic [ref=e1556]:
+                - generic [ref=e1557]:
+                  - paragraph [ref=e1558]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1559]: Phòng test Playwright
+                - paragraph [ref=e1561]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1562]:
+                  - generic [ref=e1563]: Wifi •
+                  - generic [ref=e1564]: Bếp •
+                  - generic [ref=e1565]: Điều hòa nhiệt độ •
+                  - generic [ref=e1566]: Máy giặt •
+                  - generic [ref=e1567]: Tivi •
+                  - generic [ref=e1568]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1569]:
+                - generic [ref=e1570]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1573] [cursor=pointer]:
+          - /url: /room-detail/250294
+          - generic [ref=e1576]:
+            - generic [ref=e1578]:
+              - generic: prev
+              - generic [ref=e1585]: next
+              - button "Guest favorite" [ref=e1592]:
+                - generic [ref=e1593]: Guest favorite
+              - button [ref=e1594]:
+                - img [ref=e1595]
+            - generic [ref=e1597]:
+              - generic [ref=e1598]:
+                - generic [ref=e1599]:
+                  - paragraph [ref=e1600]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1601]: Phòng test Playwright
+                - paragraph [ref=e1603]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1604]:
+                  - generic [ref=e1605]: Wifi •
+                  - generic [ref=e1606]: Bếp •
+                  - generic [ref=e1607]: Điều hòa nhiệt độ •
+                  - generic [ref=e1608]: Máy giặt •
+                  - generic [ref=e1609]: Tivi •
+                  - generic [ref=e1610]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1611]:
+                - generic [ref=e1612]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1615] [cursor=pointer]:
+          - /url: /room-detail/250300
+          - generic [ref=e1618]:
+            - generic [ref=e1620]:
+              - generic: prev
+              - generic [ref=e1627]: next
+              - button "Guest favorite" [ref=e1634]:
+                - generic [ref=e1635]: Guest favorite
+              - button [ref=e1636]:
+                - img [ref=e1637]
+            - generic [ref=e1639]:
+              - generic [ref=e1640]:
+                - generic [ref=e1641]:
+                  - paragraph [ref=e1642]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1643]: Phòng test Playwright
+                - paragraph [ref=e1645]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1646]:
+                  - generic [ref=e1647]: Wifi •
+                  - generic [ref=e1648]: Bếp •
+                  - generic [ref=e1649]: Điều hòa nhiệt độ •
+                  - generic [ref=e1650]: Máy giặt •
+                  - generic [ref=e1651]: Tivi •
+                  - generic [ref=e1652]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1653]:
+                - generic [ref=e1654]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test update 3 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Máy giặt • Tivi $ 600000 / đêm" [ref=e1657] [cursor=pointer]:
+          - /url: /room-detail/250301
+          - generic [ref=e1660]:
+            - generic [ref=e1662]:
+              - generic: prev
+              - generic [ref=e1669]: next
+              - button "Guest favorite" [ref=e1676]:
+                - generic [ref=e1677]: Guest favorite
+              - button [ref=e1678]:
+                - img [ref=e1679]
+            - generic [ref=e1681]:
+              - generic [ref=e1682]:
+                - generic [ref=e1683]:
+                  - paragraph [ref=e1684]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1685]: Phòng test update
+                - paragraph [ref=e1687]: 3 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1688]:
+                  - generic [ref=e1689]: Máy giặt •
+                  - text: Tivi
+              - generic [ref=e1690]:
+                - generic [ref=e1691]: $ 600000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1694] [cursor=pointer]:
+          - /url: /room-detail/250303
+          - generic [ref=e1697]:
+            - generic [ref=e1699]:
+              - generic: prev
+              - generic [ref=e1706]: next
+              - button "Guest favorite" [ref=e1713]:
+                - generic [ref=e1714]: Guest favorite
+              - button [ref=e1715]:
+                - img [ref=e1716]
+            - generic [ref=e1718]:
+              - generic [ref=e1719]:
+                - generic [ref=e1720]:
+                  - paragraph [ref=e1721]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1722]: Phòng test Playwright
+                - paragraph [ref=e1724]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1725]:
+                  - generic [ref=e1726]: Wifi •
+                  - generic [ref=e1727]: Bếp •
+                  - generic [ref=e1728]: Điều hòa nhiệt độ •
+                  - generic [ref=e1729]: Máy giặt •
+                  - generic [ref=e1730]: Tivi •
+                  - generic [ref=e1731]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1732]:
+                - generic [ref=e1733]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1736] [cursor=pointer]:
+          - /url: /room-detail/250304
+          - generic [ref=e1739]:
+            - generic [ref=e1741]:
+              - generic: prev
+              - generic [ref=e1748]: next
+              - button "Guest favorite" [ref=e1755]:
+                - generic [ref=e1756]: Guest favorite
+              - button [ref=e1757]:
+                - img [ref=e1758]
+            - generic [ref=e1760]:
+              - generic [ref=e1761]:
+                - generic [ref=e1762]:
+                  - paragraph [ref=e1763]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1764]: Phòng test Playwright
+                - paragraph [ref=e1766]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1767]:
+                  - generic [ref=e1768]: Wifi •
+                  - generic [ref=e1769]: Bếp •
+                  - generic [ref=e1770]: Điều hòa nhiệt độ •
+                  - generic [ref=e1771]: Máy giặt •
+                  - generic [ref=e1772]: Tivi •
+                  - generic [ref=e1773]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1774]:
+                - generic [ref=e1775]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1778] [cursor=pointer]:
+          - /url: /room-detail/250305
+          - generic [ref=e1781]:
+            - generic [ref=e1783]:
+              - generic: prev
+              - generic [ref=e1790]: next
+              - button "Guest favorite" [ref=e1797]:
+                - generic [ref=e1798]: Guest favorite
+              - button [ref=e1799]:
+                - img [ref=e1800]
+            - generic [ref=e1802]:
+              - generic [ref=e1803]:
+                - generic [ref=e1804]:
+                  - paragraph [ref=e1805]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1806]: Phòng test Playwright
+                - paragraph [ref=e1808]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1809]:
+                  - generic [ref=e1810]: Wifi •
+                  - generic [ref=e1811]: Bếp •
+                  - generic [ref=e1812]: Điều hòa nhiệt độ •
+                  - generic [ref=e1813]: Máy giặt •
+                  - generic [ref=e1814]: Tivi •
+                  - generic [ref=e1815]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1816]:
+                - generic [ref=e1817]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Da update 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 50 / đêm" [ref=e1820] [cursor=pointer]:
+          - /url: /room-detail/250306
+          - generic [ref=e1823]:
+            - generic [ref=e1825]:
+              - generic: prev
+              - generic [ref=e1832]: next
+              - button "Guest favorite" [ref=e1839]:
+                - generic [ref=e1840]: Guest favorite
+              - button [ref=e1841]:
+                - img [ref=e1842]
+            - generic [ref=e1844]:
+              - generic [ref=e1845]:
+                - generic [ref=e1846]:
+                  - paragraph [ref=e1847]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1848]: Phòng test Da update
+                - paragraph [ref=e1850]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1851]:
+                  - generic [ref=e1852]: Wifi •
+                  - generic [ref=e1853]: Bếp •
+                  - generic [ref=e1854]: Điều hòa nhiệt độ •
+                  - generic [ref=e1855]: Máy giặt •
+                  - generic [ref=e1856]: Tivi •
+                  - generic [ref=e1857]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1858]:
+                - generic [ref=e1859]: $ 50
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phong C 1 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 0 / đêm" [ref=e1862] [cursor=pointer]:
+          - /url: /room-detail/250309
+          - generic [ref=e1865]:
+            - generic [ref=e1867]:
+              - generic: prev
+              - generic [ref=e1874]: next
+              - button "Guest favorite" [ref=e1881]:
+                - generic [ref=e1882]: Guest favorite
+              - button [ref=e1883]:
+                - img [ref=e1884]
+            - generic [ref=e1886]:
+              - generic [ref=e1887]:
+                - generic [ref=e1888]:
+                  - paragraph [ref=e1889]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1890]: Phong C
+                - paragraph [ref=e1892]: 1 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1893]:
+                  - generic [ref=e1894]: Wifi •
+                  - generic [ref=e1895]: Bếp •
+                  - generic [ref=e1896]: Điều hòa nhiệt độ •
+                  - generic [ref=e1897]: Máy giặt •
+                  - generic [ref=e1898]: Tivi •
+                  - generic [ref=e1899]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1900]:
+                - generic [ref=e1901]: $ 0
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1904] [cursor=pointer]:
+          - /url: /room-detail/250312
+          - generic [ref=e1907]:
+            - generic [ref=e1909]:
+              - generic: prev
+              - generic [ref=e1916]: next
+              - button "Guest favorite" [ref=e1923]:
+                - generic [ref=e1924]: Guest favorite
+              - button [ref=e1925]:
+                - img [ref=e1926]
+            - generic [ref=e1928]:
+              - generic [ref=e1929]:
+                - generic [ref=e1930]:
+                  - paragraph [ref=e1931]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1932]: Phòng test Playwright
+                - paragraph [ref=e1934]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1935]:
+                  - generic [ref=e1936]: Wifi •
+                  - generic [ref=e1937]: Bếp •
+                  - generic [ref=e1938]: Điều hòa nhiệt độ •
+                  - generic [ref=e1939]: Máy giặt •
+                  - generic [ref=e1940]: Tivi •
+                  - generic [ref=e1941]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1942]:
+                - generic [ref=e1943]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1946] [cursor=pointer]:
+          - /url: /room-detail/250313
+          - generic [ref=e1949]:
+            - generic [ref=e1951]:
+              - generic: prev
+              - generic [ref=e1958]: next
+              - button "Guest favorite" [ref=e1965]:
+                - generic [ref=e1966]: Guest favorite
+              - button [ref=e1967]:
+                - img [ref=e1968]
+            - generic [ref=e1970]:
+              - generic [ref=e1971]:
+                - generic [ref=e1972]:
+                  - paragraph [ref=e1973]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e1974]: Phòng test Playwright
+                - paragraph [ref=e1976]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e1977]:
+                  - generic [ref=e1978]: Wifi •
+                  - generic [ref=e1979]: Bếp •
+                  - generic [ref=e1980]: Điều hòa nhiệt độ •
+                  - generic [ref=e1981]: Máy giặt •
+                  - generic [ref=e1982]: Tivi •
+                  - generic [ref=e1983]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e1984]:
+                - generic [ref=e1985]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e1988] [cursor=pointer]:
+          - /url: /room-detail/250314
+          - generic [ref=e1991]:
+            - generic [ref=e1993]:
+              - generic: prev
+              - generic [ref=e2000]: next
+              - button "Guest favorite" [ref=e2007]:
+                - generic [ref=e2008]: Guest favorite
+              - button [ref=e2009]:
+                - img [ref=e2010]
+            - generic [ref=e2012]:
+              - generic [ref=e2013]:
+                - generic [ref=e2014]:
+                  - paragraph [ref=e2015]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2016]: Phòng test Playwright
+                - paragraph [ref=e2018]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2019]:
+                  - generic [ref=e2020]: Wifi •
+                  - generic [ref=e2021]: Bếp •
+                  - generic [ref=e2022]: Điều hòa nhiệt độ •
+                  - generic [ref=e2023]: Máy giặt •
+                  - generic [ref=e2024]: Tivi •
+                  - generic [ref=e2025]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2026]:
+                - generic [ref=e2027]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2030] [cursor=pointer]:
+          - /url: /room-detail/250315
+          - generic [ref=e2033]:
+            - generic [ref=e2035]:
+              - generic: prev
+              - generic [ref=e2042]: next
+              - button "Guest favorite" [ref=e2049]:
+                - generic [ref=e2050]: Guest favorite
+              - button [ref=e2051]:
+                - img [ref=e2052]
+            - generic [ref=e2054]:
+              - generic [ref=e2055]:
+                - generic [ref=e2056]:
+                  - paragraph [ref=e2057]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2058]: Phòng test Playwright
+                - paragraph [ref=e2060]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2061]:
+                  - generic [ref=e2062]: Wifi •
+                  - generic [ref=e2063]: Bếp •
+                  - generic [ref=e2064]: Điều hòa nhiệt độ •
+                  - generic [ref=e2065]: Máy giặt •
+                  - generic [ref=e2066]: Tivi •
+                  - generic [ref=e2067]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2068]:
+                - generic [ref=e2069]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2072] [cursor=pointer]:
+          - /url: /room-detail/250316
+          - generic [ref=e2075]:
+            - generic [ref=e2077]:
+              - generic: prev
+              - generic [ref=e2084]: next
+              - button "Guest favorite" [ref=e2091]:
+                - generic [ref=e2092]: Guest favorite
+              - button [ref=e2093]:
+                - img [ref=e2094]
+            - generic [ref=e2096]:
+              - generic [ref=e2097]:
+                - generic [ref=e2098]:
+                  - paragraph [ref=e2099]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2100]: Phòng test Playwright
+                - paragraph [ref=e2102]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2103]:
+                  - generic [ref=e2104]: Wifi •
+                  - generic [ref=e2105]: Bếp •
+                  - generic [ref=e2106]: Điều hòa nhiệt độ •
+                  - generic [ref=e2107]: Máy giặt •
+                  - generic [ref=e2108]: Tivi •
+                  - generic [ref=e2109]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2110]:
+                - generic [ref=e2111]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2114] [cursor=pointer]:
+          - /url: /room-detail/250317
+          - generic [ref=e2117]:
+            - generic [ref=e2119]:
+              - generic: prev
+              - generic [ref=e2126]: next
+              - button "Guest favorite" [ref=e2133]:
+                - generic [ref=e2134]: Guest favorite
+              - button [ref=e2135]:
+                - img [ref=e2136]
+            - generic [ref=e2138]:
+              - generic [ref=e2139]:
+                - generic [ref=e2140]:
+                  - paragraph [ref=e2141]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2142]: Phòng test Playwright
+                - paragraph [ref=e2144]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2145]:
+                  - generic [ref=e2146]: Wifi •
+                  - generic [ref=e2147]: Bếp •
+                  - generic [ref=e2148]: Điều hòa nhiệt độ •
+                  - generic [ref=e2149]: Máy giặt •
+                  - generic [ref=e2150]: Tivi •
+                  - generic [ref=e2151]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2152]:
+                - generic [ref=e2153]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2156] [cursor=pointer]:
+          - /url: /room-detail/250318
+          - generic [ref=e2159]:
+            - generic [ref=e2161]:
+              - generic: prev
+              - generic [ref=e2168]: next
+              - button "Guest favorite" [ref=e2175]:
+                - generic [ref=e2176]: Guest favorite
+              - button [ref=e2177]:
+                - img [ref=e2178]
+            - generic [ref=e2180]:
+              - generic [ref=e2181]:
+                - generic [ref=e2182]:
+                  - paragraph [ref=e2183]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2184]: Phòng test Playwright
+                - paragraph [ref=e2186]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2187]:
+                  - generic [ref=e2188]: Wifi •
+                  - generic [ref=e2189]: Bếp •
+                  - generic [ref=e2190]: Điều hòa nhiệt độ •
+                  - generic [ref=e2191]: Máy giặt •
+                  - generic [ref=e2192]: Tivi •
+                  - generic [ref=e2193]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2194]:
+                - generic [ref=e2195]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2198] [cursor=pointer]:
+          - /url: /room-detail/250319
+          - generic [ref=e2201]:
+            - generic [ref=e2203]:
+              - generic: prev
+              - generic [ref=e2210]: next
+              - button "Guest favorite" [ref=e2217]:
+                - generic [ref=e2218]: Guest favorite
+              - button [ref=e2219]:
+                - img [ref=e2220]
+            - generic [ref=e2222]:
+              - generic [ref=e2223]:
+                - generic [ref=e2224]:
+                  - paragraph [ref=e2225]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2226]: Phòng test Playwright
+                - paragraph [ref=e2228]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2229]:
+                  - generic [ref=e2230]: Wifi •
+                  - generic [ref=e2231]: Bếp •
+                  - generic [ref=e2232]: Điều hòa nhiệt độ •
+                  - generic [ref=e2233]: Máy giặt •
+                  - generic [ref=e2234]: Tivi •
+                  - generic [ref=e2235]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2236]:
+                - generic [ref=e2237]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2240] [cursor=pointer]:
+          - /url: /room-detail/250320
+          - generic [ref=e2243]:
+            - generic [ref=e2245]:
+              - generic: prev
+              - generic [ref=e2252]: next
+              - button "Guest favorite" [ref=e2259]:
+                - generic [ref=e2260]: Guest favorite
+              - button [ref=e2261]:
+                - img [ref=e2262]
+            - generic [ref=e2264]:
+              - generic [ref=e2265]:
+                - generic [ref=e2266]:
+                  - paragraph [ref=e2267]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2268]: Phòng test Playwright
+                - paragraph [ref=e2270]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2271]:
+                  - generic [ref=e2272]: Wifi •
+                  - generic [ref=e2273]: Bếp •
+                  - generic [ref=e2274]: Điều hòa nhiệt độ •
+                  - generic [ref=e2275]: Máy giặt •
+                  - generic [ref=e2276]: Tivi •
+                  - generic [ref=e2277]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2278]:
+                - generic [ref=e2279]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2282] [cursor=pointer]:
+          - /url: /room-detail/250321
+          - generic [ref=e2285]:
+            - generic [ref=e2287]:
+              - generic: prev
+              - generic [ref=e2294]: next
+              - button "Guest favorite" [ref=e2301]:
+                - generic [ref=e2302]: Guest favorite
+              - button [ref=e2303]:
+                - img [ref=e2304]
+            - generic [ref=e2306]:
+              - generic [ref=e2307]:
+                - generic [ref=e2308]:
+                  - paragraph [ref=e2309]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2310]: Phòng test Playwright
+                - paragraph [ref=e2312]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2313]:
+                  - generic [ref=e2314]: Wifi •
+                  - generic [ref=e2315]: Bếp •
+                  - generic [ref=e2316]: Điều hòa nhiệt độ •
+                  - generic [ref=e2317]: Máy giặt •
+                  - generic [ref=e2318]: Tivi •
+                  - generic [ref=e2319]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2320]:
+                - generic [ref=e2321]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2324] [cursor=pointer]:
+          - /url: /room-detail/250322
+          - generic [ref=e2327]:
+            - generic [ref=e2329]:
+              - generic: prev
+              - generic [ref=e2336]: next
+              - button "Guest favorite" [ref=e2343]:
+                - generic [ref=e2344]: Guest favorite
+              - button [ref=e2345]:
+                - img [ref=e2346]
+            - generic [ref=e2348]:
+              - generic [ref=e2349]:
+                - generic [ref=e2350]:
+                  - paragraph [ref=e2351]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2352]: Phòng test Playwright
+                - paragraph [ref=e2354]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2355]:
+                  - generic [ref=e2356]: Wifi •
+                  - generic [ref=e2357]: Bếp •
+                  - generic [ref=e2358]: Điều hòa nhiệt độ •
+                  - generic [ref=e2359]: Máy giặt •
+                  - generic [ref=e2360]: Tivi •
+                  - generic [ref=e2361]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2362]:
+                - generic [ref=e2363]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2366] [cursor=pointer]:
+          - /url: /room-detail/250323
+          - generic [ref=e2369]:
+            - generic [ref=e2371]:
+              - generic: prev
+              - generic [ref=e2378]: next
+              - button "Guest favorite" [ref=e2385]:
+                - generic [ref=e2386]: Guest favorite
+              - button [ref=e2387]:
+                - img [ref=e2388]
+            - generic [ref=e2390]:
+              - generic [ref=e2391]:
+                - generic [ref=e2392]:
+                  - paragraph [ref=e2393]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2394]: Phòng test Playwright
+                - paragraph [ref=e2396]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2397]:
+                  - generic [ref=e2398]: Wifi •
+                  - generic [ref=e2399]: Bếp •
+                  - generic [ref=e2400]: Điều hòa nhiệt độ •
+                  - generic [ref=e2401]: Máy giặt •
+                  - generic [ref=e2402]: Tivi •
+                  - generic [ref=e2403]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2404]:
+                - generic [ref=e2405]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2408] [cursor=pointer]:
+          - /url: /room-detail/250324
+          - generic [ref=e2411]:
+            - generic [ref=e2413]:
+              - generic: prev
+              - generic [ref=e2420]: next
+              - button "Guest favorite" [ref=e2427]:
+                - generic [ref=e2428]: Guest favorite
+              - button [ref=e2429]:
+                - img [ref=e2430]
+            - generic [ref=e2432]:
+              - generic [ref=e2433]:
+                - generic [ref=e2434]:
+                  - paragraph [ref=e2435]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2436]: Phòng test Playwright
+                - paragraph [ref=e2438]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2439]:
+                  - generic [ref=e2440]: Wifi •
+                  - generic [ref=e2441]: Bếp •
+                  - generic [ref=e2442]: Điều hòa nhiệt độ •
+                  - generic [ref=e2443]: Máy giặt •
+                  - generic [ref=e2444]: Tivi •
+                  - generic [ref=e2445]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2446]:
+                - generic [ref=e2447]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2450] [cursor=pointer]:
+          - /url: /room-detail/250325
+          - generic [ref=e2453]:
+            - generic [ref=e2455]:
+              - generic: prev
+              - generic [ref=e2462]: next
+              - button "Guest favorite" [ref=e2469]:
+                - generic [ref=e2470]: Guest favorite
+              - button [ref=e2471]:
+                - img [ref=e2472]
+            - generic [ref=e2474]:
+              - generic [ref=e2475]:
+                - generic [ref=e2476]:
+                  - paragraph [ref=e2477]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2478]: Phòng test Playwright
+                - paragraph [ref=e2480]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2481]:
+                  - generic [ref=e2482]: Wifi •
+                  - generic [ref=e2483]: Bếp •
+                  - generic [ref=e2484]: Điều hòa nhiệt độ •
+                  - generic [ref=e2485]: Máy giặt •
+                  - generic [ref=e2486]: Tivi •
+                  - generic [ref=e2487]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2488]:
+                - generic [ref=e2489]: $ 500000
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e2492] [cursor=pointer]:
+          - /url: /room-detail/250326
+          - generic [ref=e2495]:
+            - generic [ref=e2497]:
+              - generic: prev
+              - generic [ref=e2504]: next
+              - button "Guest favorite" [ref=e2511]:
+                - generic [ref=e2512]: Guest favorite
+              - button [ref=e2513]:
+                - img [ref=e2514]
+            - generic [ref=e2516]:
+              - generic [ref=e2517]:
+                - generic [ref=e2518]:
+                  - paragraph [ref=e2519]: Toàn bộ căn hộ dịch vụ tại Hồ Chí Minh
+                  - paragraph [ref=e2520]: Phòng test Playwright
+                - paragraph [ref=e2522]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e2523]:
+                  - generic [ref=e2524]: Wifi •
+                  - generic [ref=e2525]: Bếp •
+                  - generic [ref=e2526]: Điều hòa nhiệt độ •
+                  - generic [ref=e2527]: Máy giặt •
+                  - generic [ref=e2528]: Tivi •
+                  - generic [ref=e2529]: Đỗ xe •
+                  - text: Hồ bơi
+              - generic [ref=e2530]:
+                - generic [ref=e2531]: $ 500000
+                - text: / đêm
+    - iframe [ref=e2536]:
+      - generic [active] [ref=f2e1]:
+        - link "Get directions (opens in new tab)" [ref=f2e6] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x31752eefdb25d923:0x4bcf54ddca2b7214!3e0?g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA
+          - img [ref=f2e10]
+        - generic [ref=f2e13]:
+          - generic:
+            - button "Keyboard shortcuts"
+          - region "Map" [ref=f2e14]
+          - generic [ref=f2e15]:
+            - iframe [ref=f2e46]:
+              
+            - button "Map camera controls" [ref=f2e48] [cursor=pointer]
+            - button "Show satellite imagery" [ref=f2e51] [cursor=pointer]:
+              - generic [ref=f2e55]:
+                - region [ref=f2e56]
+                - iframe [ref=f2e62]:
+                  
+            - img "Google" [ref=f2e64]
+            - generic [ref=f2e65]:
+              - button "Keyboard shortcuts" [ref=f2e71] [cursor=pointer]
+              - generic [ref=f2e76]: Map data ©2026 Google
+              - link "Terms (opens in new tab)" [ref=f2e81] [cursor=pointer]:
+                - /url: https://www.google.com/intl/en-US_US/help/terms_maps.html
+                - text: Terms
+              - link "Report a map error" [ref=f2e86] [cursor=pointer]:
+                - /url: https://www.google.com/maps/@10.7300295,106.6830422,13z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+  - generic [ref=e2537]:
+    - generic [ref=e2538]:
+      - generic [ref=e2539]:
+        - heading "Giới thiệu" [level=2] [ref=e2540]
+        - list [ref=e2541]:
+          - listitem [ref=e2542]:
+            - link "Phương thức hoạt động của Cyber" [ref=e2543] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2544]:
+            - link "Trang tin tức" [ref=e2545] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2546]:
+            - link "Nhà đầu tư" [ref=e2547] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2548]:
+            - link "Cyber Plus" [ref=e2549] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2550]:
+            - link "Cyber Luxe" [ref=e2551] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2552]:
+            - link "HotelTonight" [ref=e2553] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2554]:
+            - link "Cyber for Work" [ref=e2555] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2556]:
+            - link "Nhờ có Host, mọi điều đều có thể" [ref=e2557] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2558]:
+            - link "Cơ hội nghề nghiệp" [ref=e2559] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2560]:
+            - link "Thư của nhà sáng lập" [ref=e2561] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e2562]:
+        - heading "Cộng đồng" [level=2] [ref=e2563]
+        - list [ref=e2564]:
+          - listitem [ref=e2565]:
+            - link "Sự đa đạng và Cảm giác thân thuộc" [ref=e2566] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2567]:
+            - link "Tiện nghi phù hợp cho người khuyết tật" [ref=e2568] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2569]:
+            - link "Đối tác liên kết Cyber" [ref=e2570] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2571]:
+            - link "Chỗ ở cho tuyến đầu" [ref=e2572] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2573]:
+            - link "Lượt giới thiệu của khách" [ref=e2574] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2575]:
+            - link "CyberSoft.edu.vn" [ref=e2576] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e2577]:
+        - heading "Đón tiếp khách" [level=2] [ref=e2578]
+        - list [ref=e2579]:
+          - listitem [ref=e2580]:
+            - link "Cho thuê nhà" [ref=e2581] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2582]:
+            - link "Tổ chức Trải nghiệm trực tuyến" [ref=e2583] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2584]:
+            - link "Tổ chức Trải nghiệm" [ref=e2585] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2586]:
+            - link "Đón tiếp khách có trách nhiệm" [ref=e2587] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2588]:
+            - link "Trung tâm tài nguyên" [ref=e2589] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2590]:
+            - link "Trung tâm cộng đồng" [ref=e2591] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e2592]:
+        - heading "Hỗ trợ" [level=2] [ref=e2593]
+        - list [ref=e2594]:
+          - listitem [ref=e2595]:
+            - link "Biện pháp ứng phó đại dịch COVID-19" [ref=e2596] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2597]:
+            - link "Trung tâm trợ giúp" [ref=e2598] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2599]:
+            - link "Các tùy chọn hủy" [ref=e2600] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2601]:
+            - link "Hỗ trợ khu dân cư" [ref=e2602] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e2603]:
+            - link "Tin cây và an toàn" [ref=e2604] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+    - generic [ref=e2606]:
+      - generic [ref=e2607]: © 2022 Nguyễn Nhật Sang, Inc.Quyền riêng tư.Điều khoản.Sơ đồ trang web.
+      - generic [ref=e2608]:
+        - img [ref=e2610]
+        - text: Tiếng Việt (VN)
+        - text: USD
+        - generic [ref=e2612]: Hỗ trợ tài nguyên
+```

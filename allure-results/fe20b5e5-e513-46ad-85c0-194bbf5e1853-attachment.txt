@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Cordell Nienow',
+    email: 'auto_1776222331260@test.com',
+    password: 'cekaqeqibi',
+    phone: '(418) 826-1026',
+    birthday: '4/17/1970',
+    avatar: null,
+    gender: true,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T10:05:38.8113906+07:00'
+} auto_1776222331260@test.com auto_1776222331260@test.com

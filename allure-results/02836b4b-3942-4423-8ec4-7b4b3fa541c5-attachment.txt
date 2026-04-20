@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Abigail Erdman',
+    email: 'auto_1776220980659@test.com',
+    password: 'zamipizofe',
+    phone: '(897) 541-8027',
+    birthday: '5/7/1978',
+    avatar: null,
+    gender: true,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:43:08.21124+07:00'
+} auto_1776220980659@test.com auto_1776220980659@test.com

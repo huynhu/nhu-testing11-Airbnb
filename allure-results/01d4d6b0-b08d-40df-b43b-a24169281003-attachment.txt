@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Mamie White',
+    email: 'auto_1776222364272@test.com',
+    password: 'cekexocise',
+    phone: '(314) 319-5096',
+    birthday: '11/22/1966',
+    avatar: null,
+    gender: true,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T10:06:11.7427651+07:00'
+} auto_1776222364272@test.com auto_1776222364272@test.com

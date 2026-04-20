@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Johnny Mayer',
+    email: 'auto_1776220568551@test.com',
+    password: 'nukuleqaqa',
+    phone: null,
+    birthday: '6/23/2001',
+    avatar: null,
+    gender: false,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:36:16.1046854+07:00'
+} auto_1776220568551@test.com auto_1776220568551@test.com

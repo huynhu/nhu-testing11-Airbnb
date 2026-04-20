@@ -1,4 +1,5 @@
 import type { Locator, Page } from "playwright";
+import { expect } from "playwright/test";
 
 export class SignUpPage {
   readonly page: Page;
@@ -14,7 +15,7 @@ export class SignUpPage {
   readonly signUpBtn: Locator;
   //Locator for success message or element after sign up
   readonly successMessage: Locator;
-  readonly signInModal: Locator;
+
   //Locator for error message when sign up fails
   readonly invalidFormatEmail: Locator;
   readonly existedEmail: Locator;
@@ -31,8 +32,8 @@ export class SignUpPage {
     this.birthdaySelect = page.locator("#birthday");
     this.genderOptions = page.locator("#gender");
     this.signUpBtn = page.getByRole("button", { name: "Đăng ký" });
+    // Locators for toast messages
     this.successMessage = page.getByText("Đăng ký thành công");
-    this.signInModal = page.getByRole("dialog", { name: "Đăng nhập" });
     this.invalidFormatEmail = page.getByText(
       "Vui lòng nhập đúng định dạng email"
     );
@@ -45,24 +46,42 @@ export class SignUpPage {
     name: string,
     email: string,
     password: string,
-    phoneNumber: number,
+    phoneNumber: string,
     birthday: string,
     gender: string
   ) {
     await this.nameInput.fill(name);
     await this.emailInput.fill(email);
+
     await this.passwordInput.fill(password);
-    await this.phoneNumberInput.fill(phoneNumber.toString());
-    await this.birthdaySelect.click();
-    await this.birthdaySelect.fill(birthday);
+
+    await this.phoneNumberInput.fill(phoneNumber);
+
     await this.genderOptions.click();
     await this.page.getByText(gender, { exact: true }).click();
+
+    await this.birthdaySelect.click();
+    await this.birthdaySelect.fill(birthday);
+
     await this.signUpBtn.click();
   }
   async isSignUpSuccessful(): Promise<boolean> {
-    await this.successMessage.waitFor({ state: "visible", timeout: 5000 });
-    await this.signInModal.isVisible();
-    // Implement logic to check if sign-up was successful, e.g., by checking for a specific element on the page
-    return true; // Placeholder, replace with actual implementation
+    return await this.successMessage.isVisible();
+  }
+
+  async isInvalidEmailFormatErrorVisible(): Promise<boolean> {
+    return await this.invalidFormatEmail.isVisible();
+  }
+
+  async isExistedEmailErrorVisible(): Promise<boolean> {
+    return await this.existedEmail.isVisible();
+  }
+
+  async isInvalidPhoneNumberErrorVisible(): Promise<boolean> {
+    return await this.invalidPhoneNumber.isVisible();
+  }
+
+  async isEmptyFieldErrorVisible(): Promise<boolean> {
+    return await this.emptyFieldErrorMessage.isVisible();
   }
 }

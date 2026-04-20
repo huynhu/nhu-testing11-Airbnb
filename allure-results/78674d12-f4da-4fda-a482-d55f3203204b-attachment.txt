@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Haylee Treutel-Yundt',
+    email: 'auto_1776221179960@test.com',
+    password: 'kagopivehu',
+    phone: '(417) 827-6147',
+    birthday: '6/8/1991',
+    avatar: null,
+    gender: false,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:46:27.5365162+07:00'
+} auto_1776221179960@test.com auto_1776221179960@test.com

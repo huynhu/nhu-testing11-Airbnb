@@ -1,0 +1,4 @@
+[ 'CyberSoft', 'Hiển thị thêm', 'Hiển thị thêm', '$', '' ]
+Price per night: 13
+Number of nights: NaN
+Calculated total price: NaN

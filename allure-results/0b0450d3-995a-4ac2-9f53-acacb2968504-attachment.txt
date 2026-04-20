@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Mr. Edward Mohr DVM',
+    email: 'auto_1776221129665@test.com',
+    password: 'camafeqiqu',
+    phone: '(851) 612-5357',
+    birthday: '9/12/2004',
+    avatar: null,
+    gender: false,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:45:37.1896765+07:00'
+} auto_1776221129665@test.com auto_1776221129665@test.com

@@ -1,0 +1,285 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Cyber Logo CyberSoft" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Cyber Logo" [ref=e6]
+          - generic [ref=e7]: CyberSoft
+        - button "Open user menu Henry Ba Khiem" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: Open user menu
+          - img [ref=e11]
+          - generic [ref=e12]: Henry Ba Khiem
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "Home" [ref=e16] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e17]:
+            - link "About" [ref=e18] [cursor=pointer]:
+              - /url: /rooms/da-nang
+          - listitem [ref=e19]:
+            - link "Services" [ref=e20] [cursor=pointer]:
+              - /url: /rooms/da-nang
+          - listitem [ref=e21]:
+            - link "Pricing" [ref=e22] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e23]:
+            - link "Contact" [ref=e24] [cursor=pointer]:
+              - /url: "#"
+    - paragraph [ref=e28]: Đà Nẵng
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31] [cursor=pointer]:
+          - paragraph [ref=e32]: Địa điểm
+          - paragraph [ref=e33]: Bạn sắp đi đâu?
+        - paragraph [ref=e37] [cursor=pointer]: 21/04/2026 – 28/04/2026
+        - generic [ref=e40] [cursor=pointer]:
+          - paragraph [ref=e41]: Thêm khách
+          - img "search" [ref=e43]:
+            - img [ref=e44]
+      - generic [ref=e46]:
+        - button "Loại nơi ở" [ref=e47] [cursor=pointer]
+        - button "Giá" [ref=e48] [cursor=pointer]
+        - button "Đặt ngay" [ref=e49] [cursor=pointer]
+        - button "Phòng và phòng ngủ" [ref=e50] [cursor=pointer]
+        - button "Bộ lọc khác" [ref=e51] [cursor=pointer]
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: Có 4 chỗ ở tại Đà Nẵng • 21/04/2026 – 28/04/2026
+        - heading "Chỗ ở tại khu vực bản đồ đã chọn" [level=1] [ref=e55]
+        - generic [ref=e56]:
+          - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Đà Nẵng Studio mới & ấm cúng | Riverside | Bên cạnh Cầu Hàn 2 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm Máy giặt • Tivi $ 13 / đêm" [ref=e59] [cursor=pointer]:
+            - /url: /room-detail/16
+            - generic [ref=e62]:
+              - generic [ref=e64]:
+                - generic: prev
+                - generic [ref=e71]: next
+                - button "Guest favorite" [ref=e78]:
+                  - generic [ref=e79]: Guest favorite
+                - button [ref=e80]:
+                  - img [ref=e81]
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]:
+                    - paragraph [ref=e86]: Toàn bộ căn hộ dịch vụ tại Đà Nẵng
+                    - paragraph [ref=e87]: Studio mới & ấm cúng | Riverside | Bên cạnh Cầu Hàn
+                  - paragraph [ref=e89]: 2 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                  - paragraph [ref=e90]:
+                    - generic [ref=e91]: Máy giặt •
+                    - text: Tivi
+                - generic [ref=e92]:
+                  - generic [ref=e93]: $ 13
+                  - text: / đêm
+          - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Đà Nẵng ModernLuxury Studio cách bãi biển 1 phút 2 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Máy giặt • Đỗ xe • Hồ bơi $ 19 / đêm" [ref=e96] [cursor=pointer]:
+            - /url: /room-detail/17
+            - generic [ref=e99]:
+              - generic [ref=e101]:
+                - generic: prev
+                - generic [ref=e108]: next
+                - button "Guest favorite" [ref=e115]:
+                  - generic [ref=e116]: Guest favorite
+                - button [ref=e117]:
+                  - img [ref=e118]
+              - generic [ref=e120]:
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - paragraph [ref=e123]: Toàn bộ căn hộ dịch vụ tại Đà Nẵng
+                    - paragraph [ref=e124]: ModernLuxury Studio cách bãi biển 1 phút
+                  - paragraph [ref=e126]: 2 khách • Phòng studio • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                  - paragraph [ref=e127]:
+                    - generic [ref=e128]: Wifi •
+                    - generic [ref=e129]: Bếp •
+                    - generic [ref=e130]: Máy giặt •
+                    - generic [ref=e131]: Đỗ xe •
+                    - text: Hồ bơi
+                - generic [ref=e132]:
+                  - generic [ref=e133]: $ 19
+                  - text: / đêm
+          - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Đà Nẵng Phòng siêu đẹp cho mọi người 4 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 35 / đêm" [ref=e136] [cursor=pointer]:
+            - /url: /room-detail/247240
+            - generic [ref=e139]:
+              - generic [ref=e141]:
+                - generic: prev
+                - generic [ref=e148]: next
+                - button "Guest favorite" [ref=e155]:
+                  - generic [ref=e156]: Guest favorite
+                - button [ref=e157]:
+                  - img [ref=e158]
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - paragraph [ref=e163]: Toàn bộ căn hộ dịch vụ tại Đà Nẵng
+                    - paragraph [ref=e164]: Phòng siêu đẹp cho mọi người
+                  - paragraph [ref=e166]: 4 khách • 2 phòng ngủ • 2 giường • 2 phòng tắm
+                  - paragraph [ref=e167]:
+                    - generic [ref=e168]: Wifi •
+                    - generic [ref=e169]: Bếp •
+                    - generic [ref=e170]: Điều hòa nhiệt độ •
+                    - generic [ref=e171]: Máy giặt •
+                    - generic [ref=e172]: Tivi •
+                    - generic [ref=e173]: Đỗ xe •
+                    - text: Hồ bơi
+                - generic [ref=e174]:
+                  - generic [ref=e175]: $ 35
+                  - text: / đêm
+          - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Đà Nẵng Phòng test Playwright 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Wifi • Bếp • Điều hòa nhiệt độ • Máy giặt • Tivi • Đỗ xe • Hồ bơi $ 500000 / đêm" [ref=e178] [cursor=pointer]:
+            - /url: /room-detail/250278
+            - generic [ref=e181]:
+              - generic [ref=e183]:
+                - generic: prev
+                - generic [ref=e190]: next
+                - button "Guest favorite" [ref=e197]:
+                  - generic [ref=e198]: Guest favorite
+                - button [ref=e199]:
+                  - img [ref=e200]
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - generic [ref=e204]:
+                    - paragraph [ref=e205]: Toàn bộ căn hộ dịch vụ tại Đà Nẵng
+                    - paragraph [ref=e206]: Phòng test Playwright
+                  - paragraph [ref=e208]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                  - paragraph [ref=e209]:
+                    - generic [ref=e210]: Wifi •
+                    - generic [ref=e211]: Bếp •
+                    - generic [ref=e212]: Điều hòa nhiệt độ •
+                    - generic [ref=e213]: Máy giặt •
+                    - generic [ref=e214]: Tivi •
+                    - generic [ref=e215]: Đỗ xe •
+                    - text: Hồ bơi
+                - generic [ref=e216]:
+                  - generic [ref=e217]: $ 500000
+                  - text: / đêm
+      - iframe [ref=e222]:
+        - generic [active] [ref=f1e1]:
+          - link "Get directions (opens in new tab)" [ref=f1e6] [cursor=pointer]:
+            - /url: https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x314219c792252a13:0x1df0cb4b86727e06!3e0?g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA
+            - img [ref=f1e10]
+          - generic [ref=f1e13]:
+            - generic:
+              - button "Keyboard shortcuts"
+            - region "Map" [ref=f1e14]
+            - generic [ref=f1e15]:
+              - iframe [ref=f1e55]:
+                
+              - button "Map camera controls" [ref=f1e57] [cursor=pointer]
+              - button "Show satellite imagery" [ref=f1e60] [cursor=pointer]:
+                - generic [ref=f1e64]:
+                  - region [ref=f1e65]
+                  - iframe [ref=f1e71]:
+                    
+              - img "Google" [ref=f1e73]
+              - generic [ref=f1e74]:
+                - button "Keyboard shortcuts" [ref=f1e80] [cursor=pointer]
+                - generic [ref=f1e85]: Map data ©2026 Google
+                - link "Terms (opens in new tab)" [ref=f1e90] [cursor=pointer]:
+                  - /url: https://www.google.com/intl/en-US_US/help/terms_maps.html
+                  - text: Terms
+                - link "Report a map error" [ref=f1e95] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/@16.0314283,108.066934,13z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+    - generic [ref=e223]:
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - heading "Giới thiệu" [level=2] [ref=e226]
+          - list [ref=e227]:
+            - listitem [ref=e228]:
+              - link "Phương thức hoạt động của Cyber" [ref=e229] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e230]:
+              - link "Trang tin tức" [ref=e231] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e232]:
+              - link "Nhà đầu tư" [ref=e233] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e234]:
+              - link "Cyber Plus" [ref=e235] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e236]:
+              - link "Cyber Luxe" [ref=e237] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e238]:
+              - link "HotelTonight" [ref=e239] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e240]:
+              - link "Cyber for Work" [ref=e241] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e242]:
+              - link "Nhờ có Host, mọi điều đều có thể" [ref=e243] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e244]:
+              - link "Cơ hội nghề nghiệp" [ref=e245] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e246]:
+              - link "Thư của nhà sáng lập" [ref=e247] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e248]:
+          - heading "Cộng đồng" [level=2] [ref=e249]
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - link "Sự đa đạng và Cảm giác thân thuộc" [ref=e252] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e253]:
+              - link "Tiện nghi phù hợp cho người khuyết tật" [ref=e254] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e255]:
+              - link "Đối tác liên kết Cyber" [ref=e256] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e257]:
+              - link "Chỗ ở cho tuyến đầu" [ref=e258] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e259]:
+              - link "Lượt giới thiệu của khách" [ref=e260] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e261]:
+              - link "CyberSoft.edu.vn" [ref=e262] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e263]:
+          - heading "Đón tiếp khách" [level=2] [ref=e264]
+          - list [ref=e265]:
+            - listitem [ref=e266]:
+              - link "Cho thuê nhà" [ref=e267] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e268]:
+              - link "Tổ chức Trải nghiệm trực tuyến" [ref=e269] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e270]:
+              - link "Tổ chức Trải nghiệm" [ref=e271] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e272]:
+              - link "Đón tiếp khách có trách nhiệm" [ref=e273] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e274]:
+              - link "Trung tâm tài nguyên" [ref=e275] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e276]:
+              - link "Trung tâm cộng đồng" [ref=e277] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e278]:
+          - heading "Hỗ trợ" [level=2] [ref=e279]
+          - list [ref=e280]:
+            - listitem [ref=e281]:
+              - link "Biện pháp ứng phó đại dịch COVID-19" [ref=e282] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e283]:
+              - link "Trung tâm trợ giúp" [ref=e284] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e285]:
+              - link "Các tùy chọn hủy" [ref=e286] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e287]:
+              - link "Hỗ trợ khu dân cư" [ref=e288] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e289]:
+              - link "Tin cây và an toàn" [ref=e290] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+      - generic [ref=e292]:
+        - generic [ref=e293]: © 2022 Nguyễn Nhật Sang, Inc.Quyền riêng tư.Điều khoản.Sơ đồ trang web.
+        - generic [ref=e294]:
+          - img [ref=e296]
+          - text: Tiếng Việt (VN)
+          - text: USD
+          - generic [ref=e298]: Hỗ trợ tài nguyên
+  - img [ref=e300] [cursor=pointer]
+```

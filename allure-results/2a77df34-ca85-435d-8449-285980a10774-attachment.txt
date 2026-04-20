@@ -1,0 +1,8 @@
+10/05/2026
+15/05/2026
+2026-10-05T05:00:00.000Z
+Invalid Date
+NaN
+Price per night: 13
+Number of nights: NaN
+Calculated total price: NaN

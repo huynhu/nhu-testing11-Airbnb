@@ -1,0 +1,209 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Cyber Logo CyberSoft" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Cyber Logo" [ref=e6]
+        - generic [ref=e7]: CyberSoft
+      - button "Open user menu testing11-admin" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Open user menu
+        - img [ref=e11]
+        - generic [ref=e12]: testing11-admin
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e17]:
+          - link "About" [ref=e18] [cursor=pointer]:
+            - /url: /rooms/da-lat
+        - listitem [ref=e19]:
+          - link "Services" [ref=e20] [cursor=pointer]:
+            - /url: /rooms/da-lat
+        - listitem [ref=e21]:
+          - link "Pricing" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e23]:
+          - link "Contact" [ref=e24] [cursor=pointer]:
+            - /url: "#"
+  - paragraph [ref=e28]: Đà Lạt
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31] [cursor=pointer]:
+        - paragraph [ref=e32]: Địa điểm
+        - paragraph [ref=e33]: Đà Lạt
+      - paragraph [ref=e37] [cursor=pointer]: 20/04/2026 – 27/04/2026
+      - generic [ref=e40] [cursor=pointer]:
+        - paragraph [ref=e41]: Thêm khách
+        - img "search" [ref=e43]:
+          - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Loại nơi ở" [ref=e47] [cursor=pointer]
+      - button "Giá" [ref=e48] [cursor=pointer]
+      - button "Đặt ngay" [ref=e49] [cursor=pointer]
+      - button "Phòng và phòng ngủ" [ref=e50] [cursor=pointer]
+      - button "Bộ lọc khác" [ref=e51] [cursor=pointer]
+  - generic [ref=e52]:
+    - generic [ref=e53]:
+      - paragraph [ref=e54]: Có 2 chỗ ở tại Đà Lạt • 20/04/2026 – 27/04/2026
+      - heading "Chỗ ở tại khu vực bản đồ đã chọn" [level=1] [ref=e55]
+      - generic [ref=e56]:
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Đà Lạt Phòng mùa hè 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Máy giặt • Tivi $ 9 / đêm" [ref=e59] [cursor=pointer]:
+          - /url: /room-detail/18
+          - generic [ref=e62]:
+            - generic [ref=e64]:
+              - generic: prev
+              - generic [ref=e71]: next
+              - button "Guest favorite" [ref=e78]:
+                - generic [ref=e79]: Guest favorite
+              - button [ref=e80]:
+                - img [ref=e81]
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - paragraph [ref=e86]: Toàn bộ căn hộ dịch vụ tại Đà Lạt
+                  - paragraph [ref=e87]: Phòng mùa hè
+                - paragraph [ref=e89]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e90]:
+                  - generic [ref=e91]: Máy giặt •
+                  - text: Tivi
+              - generic [ref=e92]:
+                - generic [ref=e93]: $ 9
+                - text: / đêm
+        - link "prev next Guest favorite Toàn bộ căn hộ dịch vụ tại Đà Lạt Căn hộ hiện đại độc đáo của Scandinavia 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm Máy giặt • Tivi $ 17 / đêm" [ref=e96] [cursor=pointer]:
+          - /url: /room-detail/19
+          - generic [ref=e99]:
+            - generic [ref=e101]:
+              - generic: prev
+              - generic [ref=e108]: next
+              - button "Guest favorite" [ref=e115]:
+                - generic [ref=e116]: Guest favorite
+              - button [ref=e117]:
+                - img [ref=e118]
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - paragraph [ref=e123]: Toàn bộ căn hộ dịch vụ tại Đà Lạt
+                  - paragraph [ref=e124]: Căn hộ hiện đại độc đáo của Scandinavia
+                - paragraph [ref=e126]: 2 khách • 1 phòng ngủ • 1 giường • 1 phòng tắm
+                - paragraph [ref=e127]:
+                  - generic [ref=e128]: Máy giặt •
+                  - text: Tivi
+              - generic [ref=e129]:
+                - generic [ref=e130]: $ 17
+                - text: / đêm
+    - iframe [ref=e135]:
+      - generic [active] [ref=f1e1]:
+        - link "Open in Maps (opens in new tab)" [ref=f1e4] [cursor=pointer]:
+          - /url: about:invalid#zClosurez
+          - text: Open in Maps
+          - img [ref=f1e6]
+        - generic [ref=f1e9]:
+          - region "Map" [ref=f1e10]
+          - iframe [ref=f1e48]:
+            
+  - generic [ref=e136]:
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - heading "Giới thiệu" [level=2] [ref=e139]
+        - list [ref=e140]:
+          - listitem [ref=e141]:
+            - link "Phương thức hoạt động của Cyber" [ref=e142] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e143]:
+            - link "Trang tin tức" [ref=e144] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e145]:
+            - link "Nhà đầu tư" [ref=e146] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e147]:
+            - link "Cyber Plus" [ref=e148] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e149]:
+            - link "Cyber Luxe" [ref=e150] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e151]:
+            - link "HotelTonight" [ref=e152] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e153]:
+            - link "Cyber for Work" [ref=e154] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e155]:
+            - link "Nhờ có Host, mọi điều đều có thể" [ref=e156] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e157]:
+            - link "Cơ hội nghề nghiệp" [ref=e158] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e159]:
+            - link "Thư của nhà sáng lập" [ref=e160] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e161]:
+        - heading "Cộng đồng" [level=2] [ref=e162]
+        - list [ref=e163]:
+          - listitem [ref=e164]:
+            - link "Sự đa đạng và Cảm giác thân thuộc" [ref=e165] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e166]:
+            - link "Tiện nghi phù hợp cho người khuyết tật" [ref=e167] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e168]:
+            - link "Đối tác liên kết Cyber" [ref=e169] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e170]:
+            - link "Chỗ ở cho tuyến đầu" [ref=e171] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e172]:
+            - link "Lượt giới thiệu của khách" [ref=e173] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e174]:
+            - link "CyberSoft.edu.vn" [ref=e175] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e176]:
+        - heading "Đón tiếp khách" [level=2] [ref=e177]
+        - list [ref=e178]:
+          - listitem [ref=e179]:
+            - link "Cho thuê nhà" [ref=e180] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e181]:
+            - link "Tổ chức Trải nghiệm trực tuyến" [ref=e182] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e183]:
+            - link "Tổ chức Trải nghiệm" [ref=e184] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e185]:
+            - link "Đón tiếp khách có trách nhiệm" [ref=e186] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e187]:
+            - link "Trung tâm tài nguyên" [ref=e188] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e189]:
+            - link "Trung tâm cộng đồng" [ref=e190] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e191]:
+        - heading "Hỗ trợ" [level=2] [ref=e192]
+        - list [ref=e193]:
+          - listitem [ref=e194]:
+            - link "Biện pháp ứng phó đại dịch COVID-19" [ref=e195] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e196]:
+            - link "Trung tâm trợ giúp" [ref=e197] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e198]:
+            - link "Các tùy chọn hủy" [ref=e199] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e200]:
+            - link "Hỗ trợ khu dân cư" [ref=e201] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e202]:
+            - link "Tin cây và an toàn" [ref=e203] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+    - generic [ref=e205]:
+      - generic [ref=e206]: © 2022 Nguyễn Nhật Sang, Inc.Quyền riêng tư.Điều khoản.Sơ đồ trang web.
+      - generic [ref=e207]:
+        - img [ref=e209]
+        - text: Tiếng Việt (VN)
+        - text: USD
+        - generic [ref=e211]: Hỗ trợ tài nguyên
+```

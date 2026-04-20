@@ -1,0 +1,231 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Cyber Logo CyberSoft" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Cyber Logo" [ref=e6]
+        - generic [ref=e7]: CyberSoft
+      - generic [ref=e8]:
+        - button "Open user menu testing11-admin" [active] [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: Open user menu
+          - img [ref=e11]
+          - generic [ref=e12]: testing11-admin
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]: testing11-admin
+            - generic [ref=e16]: testing11@gmail.com
+          - list "Open user menu testing11-admin" [ref=e17]:
+            - listitem [ref=e18]:
+              - link "Dashboard" [ref=e19] [cursor=pointer]:
+                - /url: /info-user
+            - listitem [ref=e20]:
+              - link "To page Admin" [ref=e21] [cursor=pointer]:
+                - /url: /admin
+            - listitem [ref=e22]:
+              - link "Settings" [ref=e23] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e24]:
+              - link "Earnings" [ref=e25] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e26]:
+              - button "Sign out" [ref=e27] [cursor=pointer]
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - link "Home" [ref=e31] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e32]:
+          - link "About" [ref=e33] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e34]:
+          - link "Services" [ref=e35] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e36]:
+          - link "Pricing" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e38]:
+          - link "Contact" [ref=e39] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=e41]:
+    - generic [ref=e42]: Your browser does not support the video tag.
+    - generic [ref=e46]:
+      - heading "Cyberbnb" [level=2] [ref=e49]
+      - paragraph [ref=e50]: Belong anywhere
+  - generic [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56] [cursor=pointer]:
+        - paragraph [ref=e57]: Địa điểm
+        - paragraph [ref=e58]: Bạn sắp đi đâu?
+      - paragraph [ref=e62] [cursor=pointer]: 11/04/2026 – 18/04/2026
+      - generic [ref=e65] [cursor=pointer]:
+        - paragraph [ref=e66]: Thêm khách
+        - img "search" [ref=e68]:
+          - img [ref=e69]
+    - generic [ref=e71]:
+      - button "Loại nơi ở" [ref=e72] [cursor=pointer]
+      - button "Giá" [ref=e73] [cursor=pointer]
+      - button "Đặt ngay" [ref=e74] [cursor=pointer]
+      - button "Phòng và phòng ngủ" [ref=e75] [cursor=pointer]
+      - button "Bộ lọc khác" [ref=e76] [cursor=pointer]
+  - generic [ref=e78]:
+    - generic [ref=e79]:
+      - link "Hồ Chí Minh 15 phút lái xe" [ref=e80] [cursor=pointer]:
+        - /url: /rooms/ho-chi-minh
+        - generic [ref=e84]:
+          - heading "Hồ Chí Minh" [level=2] [ref=e85]
+          - paragraph [ref=e86]: 15 phút lái xe
+      - link "Cần Thơ 3 giờ lái xe" [ref=e87] [cursor=pointer]:
+        - /url: /rooms/can-tho
+        - generic [ref=e91]:
+          - heading "Cần Thơ" [level=2] [ref=e92]
+          - paragraph [ref=e93]: 3 giờ lái xe
+      - link "Nha Trang 6.5 giờ lái xe" [ref=e94] [cursor=pointer]:
+        - /url: /rooms/nha-trang
+        - generic [ref=e98]:
+          - heading "Nha Trang" [level=2] [ref=e99]
+          - paragraph [ref=e100]: 6.5 giờ lái xe
+      - link "Hà Nội 15 phút lái xe" [ref=e101] [cursor=pointer]:
+        - /url: /rooms/ha-noi
+        - generic [ref=e105]:
+          - heading "Hà Nội" [level=2] [ref=e106]
+          - paragraph [ref=e107]: 15 phút lái xe
+      - link "Phú Quốc 7.5 giờ lái xe" [ref=e108] [cursor=pointer]:
+        - /url: /rooms/phu-quoc
+        - generic [ref=e112]:
+          - heading "Phú Quốc" [level=2] [ref=e113]
+          - paragraph [ref=e114]: 7.5 giờ lái xe
+      - link "Đà Nẵng 45 phút lái xe" [ref=e115] [cursor=pointer]:
+        - /url: /rooms/da-nang
+        - generic [ref=e119]:
+          - heading "Đà Nẵng" [level=2] [ref=e120]
+          - paragraph [ref=e121]: 45 phút lái xe
+      - link "Đà Lạt 30 phút lái xe" [ref=e122] [cursor=pointer]:
+        - /url: /rooms/da-lat
+        - generic [ref=e126]:
+          - heading "Đà Lạt" [level=2] [ref=e127]
+          - paragraph [ref=e128]: 30 phút lái xe
+      - link "Phan Thiết 5 giờ lái xe" [ref=e129] [cursor=pointer]:
+        - /url: /rooms/phan-thiet
+        - generic [ref=e133]:
+          - heading "Phan Thiết" [level=2] [ref=e134]
+          - paragraph [ref=e135]: 5 giờ lái xe
+    - generic [ref=e136]:
+      - heading "Ở bất cứ đâu" [level=1] [ref=e137]
+      - generic [ref=e138]:
+        - link "Toàn bộ nhà" [ref=e139] [cursor=pointer]:
+          - /url: /rooms/ho-chi-minh
+          - generic [ref=e145]: Toàn bộ nhà
+        - link "Chỗ ở độc đáo" [ref=e146] [cursor=pointer]:
+          - /url: /rooms/nha-trang
+          - generic [ref=e152]: Chỗ ở độc đáo
+        - link "Trang trại và thiên nhiên" [ref=e153] [cursor=pointer]:
+          - /url: /rooms/da-lat
+          - generic [ref=e159]: Trang trại và thiên nhiên
+        - link "Cho phép mang theo thú cưng" [ref=e160] [cursor=pointer]:
+          - /url: /rooms/da-nang
+          - generic [ref=e166]: Cho phép mang theo thú cưng
+  - generic [ref=e167]:
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - heading "Giới thiệu" [level=2] [ref=e170]
+        - list [ref=e171]:
+          - listitem [ref=e172]:
+            - link "Phương thức hoạt động của Cyber" [ref=e173] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e174]:
+            - link "Trang tin tức" [ref=e175] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e176]:
+            - link "Nhà đầu tư" [ref=e177] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e178]:
+            - link "Cyber Plus" [ref=e179] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e180]:
+            - link "Cyber Luxe" [ref=e181] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e182]:
+            - link "HotelTonight" [ref=e183] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e184]:
+            - link "Cyber for Work" [ref=e185] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e186]:
+            - link "Nhờ có Host, mọi điều đều có thể" [ref=e187] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e188]:
+            - link "Cơ hội nghề nghiệp" [ref=e189] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e190]:
+            - link "Thư của nhà sáng lập" [ref=e191] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e192]:
+        - heading "Cộng đồng" [level=2] [ref=e193]
+        - list [ref=e194]:
+          - listitem [ref=e195]:
+            - link "Sự đa đạng và Cảm giác thân thuộc" [ref=e196] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e197]:
+            - link "Tiện nghi phù hợp cho người khuyết tật" [ref=e198] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e199]:
+            - link "Đối tác liên kết Cyber" [ref=e200] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e201]:
+            - link "Chỗ ở cho tuyến đầu" [ref=e202] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e203]:
+            - link "Lượt giới thiệu của khách" [ref=e204] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e205]:
+            - link "CyberSoft.edu.vn" [ref=e206] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e207]:
+        - heading "Đón tiếp khách" [level=2] [ref=e208]
+        - list [ref=e209]:
+          - listitem [ref=e210]:
+            - link "Cho thuê nhà" [ref=e211] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e212]:
+            - link "Tổ chức Trải nghiệm trực tuyến" [ref=e213] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e214]:
+            - link "Tổ chức Trải nghiệm" [ref=e215] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e216]:
+            - link "Đón tiếp khách có trách nhiệm" [ref=e217] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e218]:
+            - link "Trung tâm tài nguyên" [ref=e219] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e220]:
+            - link "Trung tâm cộng đồng" [ref=e221] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+      - generic [ref=e222]:
+        - heading "Hỗ trợ" [level=2] [ref=e223]
+        - list [ref=e224]:
+          - listitem [ref=e225]:
+            - link "Biện pháp ứng phó đại dịch COVID-19" [ref=e226] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e227]:
+            - link "Trung tâm trợ giúp" [ref=e228] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e229]:
+            - link "Các tùy chọn hủy" [ref=e230] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e231]:
+            - link "Hỗ trợ khu dân cư" [ref=e232] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+          - listitem [ref=e233]:
+            - link "Tin cây và an toàn" [ref=e234] [cursor=pointer]:
+              - /url: https://cybersoft.edu.vn
+    - generic [ref=e236]:
+      - generic [ref=e237]: © 2022 Nguyễn Nhật Sang, Inc.Quyền riêng tư.Điều khoản.Sơ đồ trang web.
+      - generic [ref=e238]:
+        - img [ref=e240]
+        - text: Tiếng Việt (VN)
+        - text: USD
+        - generic [ref=e242]: Hỗ trợ tài nguyên
+```

@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Bessie McKenzie Sr.',
+    email: 'auto_1776219976125@test.com',
+    password: 'cuhorugavi',
+    phone: '3938854280',
+    birthday: '10/8/1967',
+    avatar: null,
+    gender: false,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:26:23.720491+07:00'
+} auto_1776219976125@test.com auto_1776219976125@test.com

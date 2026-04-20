@@ -1,0 +1,286 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Cyber Logo CyberSoft" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Cyber Logo" [ref=e6]
+          - generic [ref=e7]: CyberSoft
+        - button "Open user menu Henry Ba Khiem" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: Open user menu
+          - img [ref=e11]
+          - generic [ref=e12]: Henry Ba Khiem
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "Home" [ref=e16] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e17]:
+            - link "About" [ref=e18] [cursor=pointer]:
+              - /url: /room-detail/16
+          - listitem [ref=e19]:
+            - link "Services" [ref=e20] [cursor=pointer]:
+              - /url: /room-detail/16
+          - listitem [ref=e21]:
+            - link "Pricing" [ref=e22] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e23]:
+            - link "Contact" [ref=e24] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=e26]:
+      - heading "Studio mới & ấm cúng | Riverside | Bên cạnh Cầu Hàn" [level=2] [ref=e27]
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - img [ref=e33]
+          - text: Chủ nhà siêu cấp
+        - link "Đà Nẵng, Việt Nam" [ref=e35] [cursor=pointer]:
+          - /url: /rooms/da-nang
+      - generic [ref=e38]:
+        - generic [ref=e42] [cursor=pointer]:
+          - img "eye" [ref=e43]:
+            - img [ref=e44]
+          - text: Xem trước
+        - generic [ref=e49] [cursor=pointer]:
+          - img "eye" [ref=e50]:
+            - img [ref=e51]
+          - text: Xem trước
+        - generic [ref=e56] [cursor=pointer]:
+          - img "eye" [ref=e57]:
+            - img [ref=e58]
+          - text: Xem trước
+        - generic [ref=e63] [cursor=pointer]:
+          - img "eye" [ref=e64]:
+            - img [ref=e65]
+          - text: Xem trước
+        - generic [ref=e70] [cursor=pointer]:
+          - img "eye" [ref=e71]:
+            - img [ref=e72]
+          - text: Xem trước
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - heading "Toàn bộ căn hộ. Chủ nhà nnhatsang" [level=3] [ref=e84]
+              - paragraph [ref=e85]: 2 Khách • Phòng Studio • 1 Phòng ngủ • 1 giường • 1 Phòng tắm
+            - img [ref=e88]
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - img [ref=e96]
+              - generic [ref=e99]:
+                - heading "Toàn bộ nhà" [level=4] [ref=e100]
+                - paragraph [ref=e101]: Bạn sẽ có chung cư cao cấp cho riêng mình.
+            - generic [ref=e102]:
+              - img [ref=e103]
+              - generic [ref=e106]:
+                - heading "Vệ sinh tăng cường" [level=4] [ref=e107]
+                - paragraph [ref=e108]: Chủ nhà này đã cam kết thực hiện quy trình vệ sinh tăng cường 5 bước của Airbnb. Hiển thị thêm
+            - generic [ref=e109]:
+              - img [ref=e110]
+              - generic [ref=e112]:
+                - heading "Phong là Chủ nhà siêu cấp" [level=4] [ref=e113]
+                - paragraph [ref=e114]: Chủ nhà siêu cấp là những chủ nhà có kinh nghiệm, được đánh giá cao và là những người cam kết mang lại quãng thời gian ở tuyệt vời cho khách.
+            - generic [ref=e115]:
+              - img [ref=e116]
+              - heading "Miễn phí hủy trong 48 giờ" [level=4] [ref=e120]
+          - generic [ref=e122]:
+            - button "Dịch sang tiếng Anh" [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]: Dịch sang tiếng Anh
+              - img [ref=e126]
+            - paragraph [ref=e128]: "Chào mừng bạn đến với Ngôi nhà Đậu thứ ba của tôi ở bên bờ sông Hàn, bên cạnh cầu sông Hàn studio rộng 25 m2 được trang trí tốt, rộng rãi, rất mới, tươi mới và sạch sẽ. Vị trí tuyệt vời: - 3 phút đi bộ đến Cầu Hàn, trung tâm thương mại Vincom... - 2-3 phút bằng taxi đến cầu Rồng, cầu Tình yêu, Chợ đêm Sontra và bãi biển"
+            - text: Hiển thị thêm
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: $13
+              - text: / night
+            - generic [ref=e137]:
+              - img "star" [ref=e138]:
+                - img [ref=e139]
+              - generic [ref=e141] [cursor=pointer]: (0) đánh giá
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: Nhận phòng
+                - generic [ref=e146]: 21-04-2026
+              - generic [ref=e147] [cursor=pointer]:
+                - generic [ref=e148]: Trả phòng
+                - generic [ref=e149]: 28-04-2026
+            - generic [ref=e150]:
+              - generic [ref=e151]: Khách
+              - generic [ref=e152]:
+                - button "–" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155]: –
+                - generic [ref=e156]: 1 khách
+                - button "+" [ref=e158] [cursor=pointer]:
+                  - generic [ref=e159]: +
+          - button "Đặt phòng" [ref=e160] [cursor=pointer]
+          - paragraph [ref=e161]: Bạn vẫn chưa bị trừ tiền
+          - generic [ref=e162]:
+            - paragraph [ref=e163]: $13 X 7 nights
+            - paragraph [ref=e164]: $ 91
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: Cleaning fee
+            - paragraph [ref=e167]: $ 8
+          - generic [ref=e169]:
+            - paragraph [ref=e170]: Total before taxes
+            - paragraph [ref=e171]: "99"
+      - generic [ref=e172]:
+        - heading "Các tiện ích đi kèm" [level=3] [ref=e173]
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - img [ref=e177]
+            - text: Tivi
+          - generic [ref=e179]:
+            - img [ref=e181]
+            - text: Bàn ủi
+          - generic [ref=e183]:
+            - img [ref=e185]
+            - text: Máy giặt
+        - button "Ẩn bớt tiện nghi" [ref=e187] [cursor=pointer]
+      - generic [ref=e190]:
+        - heading "Henry Ba Khiem" [level=3] [ref=e194]
+        - radiogroup [ref=e196]:
+          - listitem [ref=e197] [cursor=pointer]:
+            - radio "star star" [ref=e198]:
+              - img "star" [ref=e200]:
+                - img [ref=e201]
+              - img "star" [ref=e204]:
+                - img [ref=e205]
+          - listitem [ref=e207] [cursor=pointer]:
+            - radio "star star" [ref=e208]:
+              - img "star" [ref=e210]:
+                - img [ref=e211]
+              - img "star" [ref=e214]:
+                - img [ref=e215]
+          - listitem [ref=e217] [cursor=pointer]:
+            - radio "star star" [ref=e218]:
+              - img "star" [ref=e220]:
+                - img [ref=e221]
+              - img "star" [ref=e224]:
+                - img [ref=e225]
+          - listitem [ref=e227] [cursor=pointer]:
+            - radio "star star" [ref=e228]:
+              - img "star" [ref=e230]:
+                - img [ref=e231]
+              - img "star" [ref=e234]:
+                - img [ref=e235]
+          - listitem [ref=e237] [cursor=pointer]:
+            - radio "star star" [ref=e238]:
+              - img "star" [ref=e240]:
+                - img [ref=e241]
+              - img "star" [ref=e244]:
+                - img [ref=e245]
+        - textbox "Write something..." [ref=e248]
+        - button "Đánh giá" [ref=e251] [cursor=pointer]
+      - heading "Bình luận" [level=3] [ref=e253]
+      - paragraph [ref=e254]: Chưa có bình luận
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - heading "Giới thiệu" [level=2] [ref=e258]
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Phương thức hoạt động của Cyber" [ref=e261] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e262]:
+              - link "Trang tin tức" [ref=e263] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e264]:
+              - link "Nhà đầu tư" [ref=e265] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e266]:
+              - link "Cyber Plus" [ref=e267] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e268]:
+              - link "Cyber Luxe" [ref=e269] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e270]:
+              - link "HotelTonight" [ref=e271] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e272]:
+              - link "Cyber for Work" [ref=e273] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e274]:
+              - link "Nhờ có Host, mọi điều đều có thể" [ref=e275] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e276]:
+              - link "Cơ hội nghề nghiệp" [ref=e277] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e278]:
+              - link "Thư của nhà sáng lập" [ref=e279] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e280]:
+          - heading "Cộng đồng" [level=2] [ref=e281]
+          - list [ref=e282]:
+            - listitem [ref=e283]:
+              - link "Sự đa đạng và Cảm giác thân thuộc" [ref=e284] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e285]:
+              - link "Tiện nghi phù hợp cho người khuyết tật" [ref=e286] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e287]:
+              - link "Đối tác liên kết Cyber" [ref=e288] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e289]:
+              - link "Chỗ ở cho tuyến đầu" [ref=e290] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e291]:
+              - link "Lượt giới thiệu của khách" [ref=e292] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e293]:
+              - link "CyberSoft.edu.vn" [ref=e294] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e295]:
+          - heading "Đón tiếp khách" [level=2] [ref=e296]
+          - list [ref=e297]:
+            - listitem [ref=e298]:
+              - link "Cho thuê nhà" [ref=e299] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e300]:
+              - link "Tổ chức Trải nghiệm trực tuyến" [ref=e301] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e302]:
+              - link "Tổ chức Trải nghiệm" [ref=e303] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e304]:
+              - link "Đón tiếp khách có trách nhiệm" [ref=e305] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e306]:
+              - link "Trung tâm tài nguyên" [ref=e307] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e308]:
+              - link "Trung tâm cộng đồng" [ref=e309] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e310]:
+          - heading "Hỗ trợ" [level=2] [ref=e311]
+          - list [ref=e312]:
+            - listitem [ref=e313]:
+              - link "Biện pháp ứng phó đại dịch COVID-19" [ref=e314] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e315]:
+              - link "Trung tâm trợ giúp" [ref=e316] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e317]:
+              - link "Các tùy chọn hủy" [ref=e318] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e319]:
+              - link "Hỗ trợ khu dân cư" [ref=e320] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e321]:
+              - link "Tin cây và an toàn" [ref=e322] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+      - generic [ref=e324]:
+        - generic [ref=e325]: © 2022 Nguyễn Nhật Sang, Inc.Quyền riêng tư.Điều khoản.Sơ đồ trang web.
+        - generic [ref=e326]:
+          - img [ref=e328]
+          - text: Tiếng Việt (VN)
+          - text: USD
+          - generic [ref=e330]: Hỗ trợ tài nguyên
+  - img [ref=e332] [cursor=pointer]
+  - generic [ref=e337]:
+    - img "check-circle" [ref=e338]:
+      - img [ref=e339]
+    - text: Đăng nhập thành công
+```

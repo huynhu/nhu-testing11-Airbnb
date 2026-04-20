@@ -1,0 +1,3 @@
+Price per night: 7
+Number of nights: NaN
+Calculated total price: NaN

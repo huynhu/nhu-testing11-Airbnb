@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Maryann Dickens',
+    email: 'auto_1776220648416@test.com',
+    password: 'hefaturale',
+    phone: '(932) 217-0834',
+    birthday: '11/5/1972',
+    avatar: null,
+    gender: false,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:37:35.955645+07:00'
+} auto_1776220648416@test.com auto_1776220648416@test.com

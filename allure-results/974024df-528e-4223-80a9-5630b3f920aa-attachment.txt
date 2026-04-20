@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Tamia Pouros',
+    email: 'auto_1776223224634@test.com',
+    password: 'qupixaqino',
+    phone: '(368) 655-3989',
+    birthday: '8/1/1998',
+    avatar: null,
+    gender: false,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T10:20:32.16614+07:00'
+} auto_1776223224634@test.com auto_1776223224634@test.com

@@ -1,0 +1,15 @@
+{
+  statusCode: 200,
+  content: {
+    id: 0,
+    name: 'Mr. Troy Prohaska',
+    email: 'auto_1776219466206@test.com',
+    password: 'hofemonora',
+    phone: '6567690254',
+    birthday: '8/21/1997',
+    avatar: null,
+    gender: false,
+    role: 'USER'
+  },
+  dateTime: '2026-04-15T09:17:54.002581+07:00'
+} auto_1776219466206@test.com auto_1776219466206@test.com

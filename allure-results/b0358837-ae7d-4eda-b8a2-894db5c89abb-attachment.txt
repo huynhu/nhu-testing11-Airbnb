@@ -1,0 +1,9 @@
+{
+  name: 'Dr. Edwin Jacobi V',
+  email: 'auto_1776189345138@test.com',
+  password: 'xupefolina',
+  phone: 4076968525,
+  birthday: '8/15/1999',
+  gender: 'Nữ',
+  role: 'USER'
+}
