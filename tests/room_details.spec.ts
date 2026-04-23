@@ -20,15 +20,53 @@ test.describe("Room Details Page", () => {
     await homePage.clickCityCard("da-nang", "Đà Nẵng");
 
     const roomsPage = new RoomsPage(page);
+
     await roomsPage.clickCardToOpenRoomDetails();
     // Navigate to a specific room detail page (replace with actual URL)
-    const roomDetailsPage = new RoomDetailsPage(page);
 
-    // const price = await roomDetailsPage.getPricePerNight();
-    const totalPrice = await roomDetailsPage.calculateTotalPrice(
-      startDate,
-      endDate
-    );
+    const roomDetailsPage = new RoomDetailsPage(page);
+    await roomDetailsPage.selectCheckInOutDate(startDate, endDate);
     await roomDetailsPage.validatePayment(startDate, endDate);
+  });
+  test("TC02: Verify the calculation for Payment is correctly", async ({
+    page,
+  }) => {
+    const homePage = new HomePage(page);
+    const startDate = "10/05/2026";
+    const endDate = "15/05/2026";
+    const destination = "Hồ Chí Minh";
+    // await homePage.clickCityCard("da-nang", "Đà Nẵng");
+    await homePage.selectDestination(destination);
+    await homePage.selectDateRange(startDate, endDate);
+
+    const roomsPage = new RoomsPage(page);
+    roomsPage.validateResult(destination, startDate, endDate);
+
+    await roomsPage.clickCardToOpenRoomDetails();
+    // Navigate to a specific room detail page (replace with actual URL)
+
+    const roomDetailsPage = new RoomDetailsPage(page);
+    await roomDetailsPage.selectCheckInOutDate(startDate, endDate);
+    await roomDetailsPage.validatePayment(startDate, endDate);
+  });
+  test("TC03: Verify that user can book room successfully", async ({
+    page,
+  }) => {
+    const homePage = new HomePage(page);
+    const startDate = "10/05/2026";
+    const endDate = "15/05/2026";
+    await homePage.clickCityCard("da-nang", "Đà Nẵng");
+
+    const roomsPage = new RoomsPage(page);
+
+    await roomsPage.clickCardToOpenRoomDetails();
+    // Navigate to a specific room detail page (replace with actual URL)
+
+    const roomDetailsPage = new RoomDetailsPage(page);
+    await roomDetailsPage.selectCheckInOutDate(startDate, endDate);
+    await roomDetailsPage.validatePayment(startDate, endDate);
+    await roomDetailsPage.bookingBtn.click();
+    await roomDetailsPage.confirmBtn.click();
+    await expect(roomDetailsPage.toastMessage).toBeVisible();
   });
 });

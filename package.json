@@ -10,7 +10,9 @@
     "test:all": "playwright test --project=chromium --headed",
     "test:updateinfo": "playwright test profile_user --project=chromium --headed",
     "test:homepage": "playwright test homepage --project=chromium --headed",
-    "test:roomdetails": "playwright test room_details --project=chromium --headed"
+    "test:roomdetails": "playwright test room_details --project=chromium --headed",
+    "test:roompage": "playwright test room_page --project=chromium --headed",
+    "test:profileuser": "playwright test profile_user --project=chromium --headed"
   },
   "repository": {
     "type": "git",

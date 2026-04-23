@@ -1,11 +1,15 @@
 import type { Locator, Page } from "playwright";
 import { expect } from "playwright/test";
+import { DatePicker } from "../utils/datePicker";
 
 export class RoomDetailsPage {
   readonly page: Page;
   readonly roomTitle: Locator;
   readonly checkInDate: Locator;
   readonly checkOutDate: Locator;
+
+  readonly closeDateRangePicker: Locator;
+
   readonly increaseGuest: Locator;
   readonly decreaseGuest: Locator;
   readonly guestCount: (numberGuest: number) => Locator;
@@ -31,6 +35,7 @@ export class RoomDetailsPage {
     this.roomTitle = page.locator("h2");
     this.checkInDate = page.getByText("Nhận phòng");
     this.checkOutDate = page.getByText("Trả phòng");
+    this.closeDateRangePicker = page.getByRole("button", { name: "Close" });
     this.increaseGuest = page.getByRole("button", { name: "+" });
     this.decreaseGuest = page.getByRole("button", { name: "-" });
     this.guestCount = (numberGuest: number) =>
@@ -66,14 +71,25 @@ export class RoomDetailsPage {
     const [day, month, year] = dateStr.split("/");
     return new Date(`${year}-${month}-${day}`);
   }
+  async selectCheckInOutDate(checkInDate: string, checkOutDate: string) {
+    const datePicker = new DatePicker(this.page);
+    await this.checkInDate.click();
+
+    await datePicker.startDateInput.click();
+
+    await datePicker.clickDayInMonth(checkInDate);
+    await datePicker.endDateInput.click();
+    await datePicker.clickDayInMonth(checkOutDate);
+    await this.closeDateRangePicker.click();
+  }
   async countNumberofNights(
     startDate: string,
     endDate: string
   ): Promise<number> {
     const checkInDate = this.parseDate(startDate);
     const checkOutDate = this.parseDate(endDate);
-    const diffTime = Math.abs(checkOutDate.getTime() - checkInDate.getTime());
-    const totalNights = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    const diffTime = checkOutDate.getTime() - checkInDate.getTime();
+    const totalNights = diffTime / (1000 * 60 * 60 * 24);
     return totalNights;
   }
 
@@ -86,11 +102,13 @@ export class RoomDetailsPage {
     return price;
   }
   async getTotalNights() {
-    const raw = await this.payPerNight
-      .filter({ hasText: /\d/ })
-      .first()
+    const raw = await this.page
+      .locator("p.underline.text-base")
+      .filter({ hasText: "nights" })
       .innerText();
+
     const nights = Number(raw.match(/x\s*(\d+)/i)?.[1]);
+
     return nights;
   }
 
@@ -102,25 +120,14 @@ export class RoomDetailsPage {
     return totalPrice;
   }
   async validatePayment(startDate: string, endDate: string) {
+    const cleaningFee = 8;
     const expectedTotalPrice = await this.calculateTotalPrice(
       startDate,
       endDate
     );
-    const displayedTotalPriceText = await this.totalBeforeTaxes.innerText();
-
-    if (!displayedTotalPriceText) {
-      throw new Error("Total price not found");
-    }
-    const displayedTotalPriceMatch = displayedTotalPriceText.match(/[\d,]+/);
-    if (!displayedTotalPriceMatch) {
-      throw new Error(
-        `Unable to extract total price from text: ${displayedTotalPriceText}`
-      );
-    }
-    const displayedTotalPrice = parseInt(
-      displayedTotalPriceMatch[0].replace(/,/g, "")
-    );
-    console.log(displayedTotalPrice);
+    const totalNights = await this.getTotalNights();
+    const totalPriceFromUI = await this.getPricePerNight();
+    const displayedTotalPrice = totalNights * totalPriceFromUI + cleaningFee;
     expect(displayedTotalPrice).toEqual(expectedTotalPrice);
   }
 }

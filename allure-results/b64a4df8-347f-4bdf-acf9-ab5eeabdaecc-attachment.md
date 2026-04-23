@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - img [ref=e4]
+    - navigation [ref=e10]:
+      - generic [ref=e11]:
+        - link "Cyber Logo CyberSoft" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img "Cyber Logo" [ref=e13]
+          - generic [ref=e14]: CyberSoft
+        - button "Open user menu Henry Ba Khiem" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Open user menu
+          - img [ref=e18]
+          - generic [ref=e19]: Henry Ba Khiem
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Home" [ref=e23] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e24]:
+            - link "About" [ref=e25] [cursor=pointer]:
+              - /url: /rooms/ho-chi-minh
+          - listitem [ref=e26]:
+            - link "Services" [ref=e27] [cursor=pointer]:
+              - /url: /rooms/ho-chi-minh
+          - listitem [ref=e28]:
+            - link "Pricing" [ref=e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e30]:
+            - link "Contact" [ref=e31] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=e34]:
+      - paragraph: Không tìm thấy phòng phù hợp cho bạn tại Ho Chi Minh !!!
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37] [cursor=pointer]:
+          - paragraph [ref=e38]: Địa điểm
+          - paragraph [ref=e39]: Hồ Chí Minh
+        - paragraph [ref=e43] [cursor=pointer]: 30/04/2026 – 09/05/2026
+        - generic [ref=e46] [cursor=pointer]:
+          - paragraph [ref=e47]: Thêm khách
+          - img "search" [ref=e49]:
+            - img [ref=e50]
+      - generic [ref=e52]:
+        - button "Loại nơi ở" [ref=e53] [cursor=pointer]
+        - button "Giá" [ref=e54] [cursor=pointer]
+        - button "Đặt ngay" [ref=e55] [cursor=pointer]
+        - button "Phòng và phòng ngủ" [ref=e56] [cursor=pointer]
+        - button "Bộ lọc khác" [ref=e57] [cursor=pointer]
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - heading "Giới thiệu" [level=2] [ref=e61]
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Phương thức hoạt động của Cyber" [ref=e64] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e65]:
+              - link "Trang tin tức" [ref=e66] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e67]:
+              - link "Nhà đầu tư" [ref=e68] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e69]:
+              - link "Cyber Plus" [ref=e70] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e71]:
+              - link "Cyber Luxe" [ref=e72] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e73]:
+              - link "HotelTonight" [ref=e74] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e75]:
+              - link "Cyber for Work" [ref=e76] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e77]:
+              - link "Nhờ có Host, mọi điều đều có thể" [ref=e78] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e79]:
+              - link "Cơ hội nghề nghiệp" [ref=e80] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e81]:
+              - link "Thư của nhà sáng lập" [ref=e82] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e83]:
+          - heading "Cộng đồng" [level=2] [ref=e84]
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - link "Sự đa đạng và Cảm giác thân thuộc" [ref=e87] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e88]:
+              - link "Tiện nghi phù hợp cho người khuyết tật" [ref=e89] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e90]:
+              - link "Đối tác liên kết Cyber" [ref=e91] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e92]:
+              - link "Chỗ ở cho tuyến đầu" [ref=e93] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e94]:
+              - link "Lượt giới thiệu của khách" [ref=e95] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e96]:
+              - link "CyberSoft.edu.vn" [ref=e97] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e98]:
+          - heading "Đón tiếp khách" [level=2] [ref=e99]
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - link "Cho thuê nhà" [ref=e102] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e103]:
+              - link "Tổ chức Trải nghiệm trực tuyến" [ref=e104] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e105]:
+              - link "Tổ chức Trải nghiệm" [ref=e106] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e107]:
+              - link "Đón tiếp khách có trách nhiệm" [ref=e108] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e109]:
+              - link "Trung tâm tài nguyên" [ref=e110] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e111]:
+              - link "Trung tâm cộng đồng" [ref=e112] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e113]:
+          - heading "Hỗ trợ" [level=2] [ref=e114]
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - link "Biện pháp ứng phó đại dịch COVID-19" [ref=e117] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e118]:
+              - link "Trung tâm trợ giúp" [ref=e119] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e120]:
+              - link "Các tùy chọn hủy" [ref=e121] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e122]:
+              - link "Hỗ trợ khu dân cư" [ref=e123] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e124]:
+              - link "Tin cây và an toàn" [ref=e125] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+      - generic [ref=e127]:
+        - generic [ref=e128]: © 2022 Nguyễn Nhật Sang, Inc.Quyền riêng tư.Điều khoản.Sơ đồ trang web.
+        - generic [ref=e129]:
+          - img [ref=e131]
+          - text: Tiếng Việt (VN)
+          - text: USD
+          - generic [ref=e133]: Hỗ trợ tài nguyên
+  - generic [ref=e135]:
+    - img "check-circle" [ref=e136]:
+      - img [ref=e137]
+    - text: Đăng nhập thành công
+```

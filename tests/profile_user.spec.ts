@@ -18,7 +18,8 @@ test.describe("Info User Page", () => {
     await homePage.clickUserMenu();
     await homePage.clickDashBoard();
     await infoUserPage.clickChangeInfoBtn();
-    await infoUserPage.editInfoUser({ fullName: "Henry Ba Khiem" });
+    await infoUserPage.updateFullName("Henry Ba Khiem");
+    await infoUserPage.clickUpdateBtn();
     await expect(homePage.userMenu).toContainText("Henry Ba Khiem");
   });
   test("TC24: User can update phone number successfully", async ({ page }) => {
@@ -27,8 +28,9 @@ test.describe("Info User Page", () => {
     await homePage.clickUserMenu();
     await homePage.clickDashBoard();
     await infoUserPage.clickChangeInfoBtn();
-    await infoUserPage.editInfoUser({ phone: "1234567890" });
-    await expect(homePage.userMenu).toContainText("1234567890");
+    await infoUserPage.updatePhone("0932607326");
+    await infoUserPage.clickUpdateBtn();
+    await expect(page.getByText("Cập nhật thông tin thành công")).toBeVisible();
   });
 
   test("TC25: User can update avatar successfully", async ({ page }) => {
@@ -49,22 +51,8 @@ test.describe("Info User Page", () => {
     await homePage.clickUserMenu();
     await homePage.clickDashBoard();
     await infoUserPage.clickChangeInfoBtn();
-    await infoUserPage.editInfoUser({ email: "invalid_email" });
-    await expect(
-      page.getByText("Vui lòng nhập đúng định dạng email")
-    ).toBeVisible();
-  });
-
-  test("TC27: User cannot update info with empty full name", async ({
-    page,
-  }) => {
-    const infoUserPage = new InfoUserPage(page);
-    const homePage = new HomePage(page);
-    await homePage.clickUserMenu();
-    await homePage.clickDashBoard();
-    await infoUserPage.clickChangeInfoBtn();
-    await infoUserPage.editInfoUser({ fullName: "" });
-    await expect(page.getByText("Vui lòng không bỏ trống")).toBeVisible();
+    await infoUserPage.updateEmail("email");
+    await expect(page.getByText("Email không hợp lệ!")).toBeVisible();
   });
 
   test("TC28: User cannot update info with invalid phone number", async ({
@@ -75,7 +63,70 @@ test.describe("Info User Page", () => {
     await homePage.clickUserMenu();
     await homePage.clickDashBoard();
     await infoUserPage.clickChangeInfoBtn();
-    await infoUserPage.editInfoUser({ phone: "invalid_phone" });
-    await expect(page.getByText("Số điện thoại không hợp lệ")).toBeVisible();
+    await infoUserPage.updatePhone("090990");
+    await expect(page.getByText("Sai định dạng số điện thoại!")).toBeVisible();
+  });
+
+  test("TC27: User cannot update info with empty full name", async ({
+    page,
+  }) => {
+    const infoUserPage = new InfoUserPage(page);
+    const homePage = new HomePage(page);
+    await homePage.clickUserMenu();
+    await homePage.clickDashBoard();
+    await infoUserPage.clickChangeInfoBtn();
+    await infoUserPage.updateFullName("");
+    await expect(page.getByText("Vui lòng nhập họ tên!")).toBeVisible({
+      timeout: 5000,
+    });
+  });
+
+  test("TC28: User cannot update info with empty phone number", async ({
+    page,
+  }) => {
+    const infoUserPage = new InfoUserPage(page);
+    const homePage = new HomePage(page);
+    await homePage.clickUserMenu();
+    await homePage.clickDashBoard();
+    await infoUserPage.clickChangeInfoBtn();
+    await infoUserPage.updatePhone("");
+    await expect(page.getByText("Vui lòng nhập số điện thoại!")).toBeVisible();
+  });
+
+  test("TC28: User cannot update info with empty email", async ({ page }) => {
+    const infoUserPage = new InfoUserPage(page);
+    const homePage = new HomePage(page);
+    await homePage.clickUserMenu();
+    await homePage.clickDashBoard();
+    await infoUserPage.clickChangeInfoBtn();
+    await infoUserPage.updateEmail("");
+    await expect(page.getByText("Vui lòng nhập email!")).toBeVisible();
+  });
+  // test("TC28: User cannot update info with empty DOB", async ({ page }) => {
+  //   const infoUserPage = new InfoUserPage(page);
+  //   const homePage = new HomePage(page);
+  //   await homePage.clickUserMenu();
+  //   await homePage.clickDashBoard();
+  //   await infoUserPage.clickChangeInfoBtn();
+  //   await infoUserPage.updateDOB("");
+  //   await expect(page.getByText("Vui lòng chọn ngày sinh!")).toBeVisible();
+  // });
+  // test("TC28: User cannot update info with empty gender", async ({ page }) => {
+  //   const infoUserPage = new InfoUserPage(page);
+  //   const homePage = new HomePage(page);
+  //   await homePage.clickUserMenu();
+  //   await homePage.clickDashBoard();
+  //   await infoUserPage.clickChangeInfoBtn();
+  //   await infoUserPage.updateGender("");
+  //   await expect(page.getByText("Vui lòng chọn giới tính")).toBeVisible();
+  // });
+
+  test("TC29: User is able to view history booking room", async ({ page }) => {
+    const infoUserPage = new InfoUserPage(page);
+    const homePage = new HomePage(page);
+    await homePage.clickUserMenu();
+    await homePage.clickDashBoard();
+    await infoUserPage.clickChangeInfoBtn();
+    await infoUserPage.validateBookedRoomList();
   });
 });

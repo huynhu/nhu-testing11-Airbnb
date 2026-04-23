@@ -27,11 +27,24 @@ export class DatePicker {
     this.endDateInput = this.page.getByPlaceholder("Continuous");
   }
 
-  private parseDate(dateStr: string): Date {
-    const [day, month, year] = dateStr.split("/");
-    return new Date(`${year}-${month}-${day}`);
-  }
+  // private parseDate(dateStr: string): Date {
+  //   const [day, month, year] = dateStr.split("/");
+  //   return new Date(`${year}-${month}-${day}`);
+  // }
 
+  private parseDate(dateStr: string): Date {
+    const [dayStr, monthStr, yearStr] = dateStr.split("/");
+
+    if (!dayStr || !monthStr || !yearStr) {
+      throw new Error(`Invalid date: ${dateStr}`);
+    }
+
+    const day = Number(dayStr);
+    const month = Number(monthStr);
+    const year = Number(yearStr);
+
+    return new Date(year, month - 1, day);
+  }
   async waitForCalendar() {
     await this.openDatePicker.click();
     await expect(this.page.locator(".rdrCalendarWrapper")).toBeVisible();
@@ -54,7 +67,7 @@ export class DatePicker {
 
   async clickDayInMonth(dateStr: string) {
     const date = this.parseDate(dateStr);
-    await this.clickMonth(date.toLocaleString("default", { month: "long" }));
+    await this.clickMonth(date.toLocaleString("en-US", { month: "long" }));
     await this.clickYear(date.getFullYear());
     await this.clickDay(date.getDate());
   }

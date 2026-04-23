@@ -20,7 +20,7 @@ test.describe("Admin Page", () => {
     // 4.Mo menu user va click vao menu To page admin
 
     await homePage.clickUserMenu();
-    const adminMenu = page.getByRole("link", { name: "To page admin" });
+    const adminMenu = page.getByRole("link", { name: "To page Admin" });
     await adminMenu.click();
   });
   test("TC01: Admin can access admin page successfully", async ({ page }) => {
