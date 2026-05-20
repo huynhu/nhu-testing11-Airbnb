@@ -35,6 +35,8 @@ jobs:
         run: |
           echo "EMAIL=${{secrets.EMAIL}}" > .env
           echo "PASSWORD=${{secrets.PASSWORD}}" >> .env
+          echo "BASE_URL=${{secrets.BASE_URL}}" >> .env
+          echo "CYBERSOFT_TOKEN=${{secrets.CYBERSOFT_TOKEN}}" >> .env
       # B5: chay test bang Playwright
       - name: Run Playwright test
         run: |
