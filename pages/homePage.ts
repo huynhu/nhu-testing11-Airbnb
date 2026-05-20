@@ -31,7 +31,7 @@ export class HomePage {
   readonly searchButton: Locator;
 
   //Locator cho cac destination city tren trang chu
-  readonly cityCard: (city: string, cityname: string) => Locator;
+  readonly cityCard: (city: string) => Locator;
   //Locator cho menu profile sau khi sign in thanh cong
   readonly dashBoard: Locator;
   readonly signOutBtn: Locator;
@@ -48,9 +48,10 @@ export class HomePage {
 
     // Profile menu item for Dashboard, which is visible after signing in
     this.dashBoard = page.getByRole("link", { name: "Dashboard" });
-    // Dynamic locator for city cards on the homepage
-    this.cityCard = (city: string, cityname: string) =>
-      page.locator(`a[href='/rooms/${city}']`, { hasText: cityname });
+    this.cityCard = (city: string) =>
+      page.locator(
+        "//div[@class='ant-card-body']/div/div/h2[text()='" + city + "']"
+      );
     // Destination locators
     this.openDestinationsSelector = page.getByText("Địa điểm");
     this.getDestinationLocator = (city: string) => page.getByText(city).first();
@@ -95,14 +96,17 @@ export class HomePage {
     await this.userMenu.click();
   }
 
-  async clickCityCard(city: string, cityname: string) {
-    await expect(this.cityCard(city, cityname)).toBeVisible();
-    await this.cityCard(city, cityname).click();
-    await expect(this.page).toHaveURL(`/rooms/${city}`, { timeout: 10000 });
+  async clickCityCard(city: string, url: string) {
+    await expect(this.cityCard(city)).toBeVisible();
+    await this.cityCard(city).click();
+    await expect(this.page).toHaveURL(`/rooms/${url}`, { timeout: 10000 });
   }
   async clickDashBoard() {
     await this.dashBoard.click();
     await this.page.waitForURL("**/info-user");
+  }
+  async waitHomePageLoading() {
+    await expect(this.userMenu).toBeVisible();
   }
   // Methods for search functionality
   async selectDestination(destination: string) {

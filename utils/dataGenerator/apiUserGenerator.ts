@@ -21,7 +21,7 @@ export const apiUserGenerator = (overrides: Partial<APIUser> = {}): APIUser => {
       memorable: true,
     }),
 
-    phone: faker.phone.number({ style: "national" }),
+    phone: `0${faker.string.numeric(9)}`,
 
     birthday: faker.date
       .birthdate({

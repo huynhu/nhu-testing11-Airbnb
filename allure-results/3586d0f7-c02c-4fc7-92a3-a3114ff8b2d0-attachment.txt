@@ -1,0 +1,19 @@
+Status: 200
+Body: {
+  "statusCode": 200,
+  "content": {
+    "user": {
+      "id": 64256,
+      "name": "Marisol Heller",
+      "email": "henry@yopmail.com",
+      "password": "",
+      "phone": "0799749233",
+      "birthday": "2026-04-21T08:00:15.586Z",
+      "avatar": "https://airbnbnew.cybersoft.edu.vn/avatar/07-05-2026-12-29-11-test_avatar.jpeg",
+      "gender": false,
+      "role": "USER"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2IiwiZW1haWwiOiJoZW5yeUB5b3BtYWlsLmNvbSIsInJvbGUiOiJVU0VSIiwibmJmIjoxNzc4MDkwNzMwLCJleHAiOjE3Nzg2OTU1MzB9.WhurrkuM3aywdUmvnatuWBQoq03psELV-Na4q82N2Sc"
+  },
+  "dateTime": "2026-05-07T01:05:30.9770742+07:00"
+}

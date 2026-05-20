@@ -35,23 +35,23 @@ export async function signInRequest(userData: SignInRequest) {
 }
 
 // Get Token
-export async function signInAndGetToken(userData: SignInRequest) {
-  const apiContext = await request.newContext({
-    baseURL,
-    extraHTTPHeaders: headers,
-  });
+// export async function signInAndGetToken(userData: SignInRequest) {
+//   const apiContext = await request.newContext({
+//     baseURL,
+//     extraHTTPHeaders: headers,
+//   });
 
-  const res = await apiContext.post("api/auth/signin", {
-    data: userData,
-  });
+//   const res = await apiContext.post("api/auth/signin", {
+//     data: userData,
+//   });
 
-  const body: SignInResponse = await res.json();
+//   const body: SignInResponse = await res.json();
 
-  const token = body.content.token;
+//   const token = body.content.token;
 
-  if (!token) {
-    throw new Error("Token not found in response");
-  }
+//   if (!token) {
+//     throw new Error("Token not found in response");
+//   }
 
-  return token;
-}
+//   return token;
+// }

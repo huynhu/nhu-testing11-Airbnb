@@ -10,7 +10,7 @@ export class RoomsPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.roomCards = this.page.locator("//div[@class='ant-card-body']");
+    this.roomCards = this.page.getByRole("button", { name: "Guest favorite" });
     this.actualText = this.page.getByText(/Có \d+ chỗ ở tại/);
   }
   // ✅ FIXED — wait for DOM attachment first, then count
@@ -42,11 +42,11 @@ export class RoomsPage {
     const actualText = await this.actualText.innerText();
     const expectedText = await this.getSummaryText(city, startDate, endDate);
     await expect(actualText.trim()).toBe(expectedText);
-    console.log(actualText, expectedText);
   }
 
   async clickCardToOpenRoomDetails() {
+    await expect(this.roomCards.first()).toBeVisible({ timeout: 15000 });
     await this.roomCards.first().click();
-    await expect(this.page).toHaveURL(/\/room-detail\/.+/);
+    await expect(this.page).toHaveURL(/\/room-detail\/\d+/);
   }
 }

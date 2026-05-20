@@ -1,0 +1,25 @@
+APIResponse: 200 OK
+  Transfer-Encoding: chunked
+  Content-Type: application/json; charset=utf-8
+  Server: Kestrel
+  Strict-Transport-Security: max-age=2592000
+  X-Powered-By: ASP.NET
+  Date: Tue, 12 May 2026 07:31:09 GMT
+{
+  statusCode: 200,
+  content: {
+    user: {
+      id: 64256,
+      name: 'Marisol Heller',
+      email: 'henry@yopmail.com',
+      password: '',
+      phone: '0869521088',
+      birthday: '2026-04-21T08:00:15.586Z',
+      avatar: 'https://airbnbnew.cybersoft.edu.vn/avatar/07-05-2026-08-21-47-test_avatar.jpeg',
+      gender: false,
+      role: 'USER'
+    },
+    token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2IiwiZW1haWwiOiJoZW5yeUB5b3BtYWlsLmNvbSIsInJvbGUiOiJVU0VSIiwibmJmIjoxNzc4NTcxMDY5LCJleHAiOjE3NzkxNzU4Njl9.Id8gsemnwavVH2-xscwtrsOjzsnBe4NeQ1r8cl06gH4'
+  },
+  dateTime: '2026-05-12T14:31:09.7527233+07:00'
+}

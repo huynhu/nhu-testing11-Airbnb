@@ -9,10 +9,11 @@ export class RoomDetailsPage {
   readonly checkOutDate: Locator;
 
   readonly closeDateRangePicker: Locator;
+  readonly guest: Locator;
 
   readonly increaseGuest: Locator;
   readonly decreaseGuest: Locator;
-  readonly guestCount: (numberGuest: number) => Locator;
+  readonly guestCount: Locator;
 
   readonly bookingBtn: Locator;
   // Locators for payment details
@@ -29,6 +30,8 @@ export class RoomDetailsPage {
 
   //Locator for toast message after booking
   readonly toastMessage: Locator;
+  //Locator for toast message
+  readonly needSignInToast: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -36,10 +39,14 @@ export class RoomDetailsPage {
     this.checkInDate = page.getByText("Nhận phòng");
     this.checkOutDate = page.getByText("Trả phòng");
     this.closeDateRangePicker = page.getByRole("button", { name: "Close" });
+
+    // Guest selector locators
+    this.guest = page.getByText("Thêm khách");
     this.increaseGuest = page.getByRole("button", { name: "+" });
     this.decreaseGuest = page.getByRole("button", { name: "-" });
-    this.guestCount = (numberGuest: number) =>
-      page.locator(`${numberGuest} khách`);
+
+    //Validate number of guest after selecting
+    this.guestCount = page.getByText(/\d+\s*khách/);
     this.bookingBtn = page.getByRole("button", { name: "Đặt phòng" });
 
     // Locators for payment
@@ -63,6 +70,9 @@ export class RoomDetailsPage {
 
     // Locator for toast message
     this.toastMessage = page.getByText("Thêm mới thành công!");
+    this.needSignInToast = page.getByText(
+      "Vui lòng đăng nhập để tiếp tục đặt phòng."
+    );
   }
   async waitForLoadRoomDetails() {
     await expect(this.page).toHaveURL(/\/room-detail\/.+/);
@@ -92,7 +102,15 @@ export class RoomDetailsPage {
     const totalNights = diffTime / (1000 * 60 * 60 * 24);
     return totalNights;
   }
+  async selectGuests(guest: number) {
+    for (let i = 1; i < guest; i++) {
+      await this.increaseGuest.click();
+    }
+  }
 
+  async validateGuest(guest: number) {
+    await expect(this.guestCount).toHaveText(new RegExp(`${guest}\\s*khách`));
+  }
   async getPricePerNight() {
     const raw = await this.payPerNight
       .filter({ hasText: /\d/ })
@@ -129,5 +147,26 @@ export class RoomDetailsPage {
     const totalPriceFromUI = await this.getPricePerNight();
     const displayedTotalPrice = totalNights * totalPriceFromUI + cleaningFee;
     expect(displayedTotalPrice).toEqual(expectedTotalPrice);
+  }
+  async getFutureDates(
+    daysFromToday: number
+  ): Promise<{ checkIn: string; checkOut: string }> {
+    const today = new Date();
+    const checkInDate = new Date(today);
+    checkInDate.setDate(today.getDate() + daysFromToday);
+    const checkOutDate = new Date(checkInDate);
+    checkOutDate.setDate(checkInDate.getDate() + 5); // Default to 5 nights stay
+
+    const formatDate = (date: Date) => {
+      const day = String(date.getDate()).padStart(2, "0");
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const year = date.getFullYear();
+      return `${day}/${month}/${year}`;
+    };
+
+    return {
+      checkIn: formatDate(checkInDate),
+      checkOut: formatDate(checkOutDate),
+    };
   }
 }

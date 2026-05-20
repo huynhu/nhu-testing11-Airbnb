@@ -23,7 +23,9 @@ test.describe("Admin Page", () => {
     const adminMenu = page.getByRole("link", { name: "To page Admin" });
     await adminMenu.click();
   });
-  test("TC01: Admin can access admin page successfully", async ({ page }) => {
+  test("TC01 - Admin: Admin can access admin page successfully", async ({
+    page,
+  }) => {
     // xác nhận URL sau khi vào trang admin
     const adminPage = new AdminPage(page);
     await expect(page).toHaveURL(/\/admin$/); // URL phải kết thúc bằng /admin

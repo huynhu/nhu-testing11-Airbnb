@@ -6,7 +6,7 @@ import { SignUpPage } from "../../pages/signUpPage";
 import { AdminPage } from "../../pages/adminPage";
 
 test.describe("Authentication login test", () => {
-  test("TC01: Log in successfully with valid Admin credentials", async ({
+  test("TC01 - Authentication: Log in successfully with valid Admin credentials", async ({
     page,
   }) => {
     const loginPage = new LoginPage(page);
@@ -18,7 +18,8 @@ test.describe("Authentication login test", () => {
 
     await expect(homePage.userMenu).toContainText(adminAccount.name);
 
-    const adminMenu = page.getByRole("link", { name: "To page admin" });
+    const adminMenu = page.getByRole("link", { name: "To page Admin" });
+    await homePage.clickUserMenu();
     await adminMenu.click();
     await expect(page).toHaveURL(/\/admin$/); // URL phải kết thúc bằng /admin
     const adminPage = new AdminPage(page);
@@ -30,7 +31,9 @@ test.describe("Authentication login test", () => {
   });
 });
 test.describe("Authentication login test with invalid email", () => {
-  test("TC02: Log in failed - Invalid email format", async ({ page }) => {
+  test("TC02 - Authentication: Log in failed - Invalid email format", async ({
+    page,
+  }) => {
     const loginPage = new LoginPage(page);
     const homePage = new HomePage(page);
 
@@ -43,7 +46,9 @@ test.describe("Authentication login test with invalid email", () => {
   });
 });
 test.describe("Authentication login test with invalid password", () => {
-  test("TC03: Log in failed - Invalid password", async ({ page }) => {
+  test("TC03 - Authentication: Log in failed - Invalid password", async ({
+    page,
+  }) => {
     const loginPage = new LoginPage(page);
     const homePage = new HomePage(page);
 
@@ -56,7 +61,9 @@ test.describe("Authentication login test with invalid password", () => {
   });
 
   test.describe("Authentication login test with non-existing email", () => {
-    test("TC04: Log in failed - Email not found", async ({ page }) => {
+    test("TC04 - Authentication: Log in failed - Email not found", async ({
+      page,
+    }) => {
       const loginPage = new LoginPage(page);
       const homePage = new HomePage(page);
 
@@ -69,7 +76,9 @@ test.describe("Authentication login test with invalid password", () => {
     });
   });
   test.describe("Authentication login test with empty email", () => {
-    test("TC05: Log in failed - Email is empty", async ({ page }) => {
+    test("TC05 - Authentication: Log in failed - Email is empty", async ({
+      page,
+    }) => {
       const loginPage = new LoginPage(page);
       const homePage = new HomePage(page);
 
@@ -80,7 +89,9 @@ test.describe("Authentication login test with invalid password", () => {
     });
   });
   test.describe("Authentication login test with empty password", () => {
-    test("TC06: Log in failed - Password is empty", async ({ page }) => {
+    test("TC06 - Authentication: Log in failed - Password is empty", async ({
+      page,
+    }) => {
       const loginPage = new LoginPage(page);
       const homePage = new HomePage(page);
 

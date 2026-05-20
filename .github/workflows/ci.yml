@@ -37,7 +37,9 @@ jobs:
           echo "PASSWORD=${{secrets.PASSWORD}}" >> .env
       # B5: chay test bang Playwright
       - name: Run Playwright test
-        run: npx playwright test --project=chromium
+        run: |
+          rm -rf allure-results/
+          npx playwright test --project=chromium
       # B6: Tao bao cao Allure (neu co)
       - name: Generate Allure report
         if: always()

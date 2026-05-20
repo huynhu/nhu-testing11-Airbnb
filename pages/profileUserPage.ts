@@ -26,8 +26,10 @@ export class InfoUserPage {
 
   readonly changeInfoBtn: Locator;
   readonly bookedRoomList: Locator;
-  readonly toastMessage: Locator;
+  readonly toastAvatarMessage: Locator;
+  readonly toastInfoMessage: Locator;
   readonly updateBtn: Locator;
+  readonly infoUser: (name: string) => Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -57,9 +59,14 @@ export class InfoUserPage {
     });
 
     this.bookedRoomList = page.getByText("Phòng đã thuê", { exact: true });
-    this.toastMessage = page.getByText("Cập nhật avatar thành công!", {
+    this.toastAvatarMessage = page.getByText("Cập nhật avatar thành công!", {
       exact: true,
     });
+    this.toastInfoMessage = page.getByText("Cập nhật thông tin thành công!", {
+      exact: true,
+    });
+    this.infoUser = (name: string) =>
+      page.getByText(`Xin chào, tôi là ${name}`);
   }
 
   async clickChangeInfoBtn() {
@@ -80,27 +87,40 @@ export class InfoUserPage {
   async updatePhone(phone: string) {
     await this.phoneField.fill(phone);
   }
-  async updateDOB(date: string) {
-    await this.dobField.clear();
-    await this.dobField.fill(date);
+  async updateDOB(date?: string) {
+    if (date) {
+      await this.dobField.fill(date);
+    } else {
+      await this.page
+        .getByRole("button", { name: "close-circle" })
+        .nth(3)
+        .click();
+    }
   }
-  async updateGender(gender: string) {
-    await this.genderField.clear();
-    await this.genderField.selectOption(gender);
+  async updateGender(gender?: string) {
+    if (gender) {
+      await this.genderField.fill(gender);
+    } else {
+      await this.page.locator("/span[@class='ant-select-clear']").click();
+    }
   }
   async clickUpdateBtn() {
     await this.updateBtn.click();
   }
 
   async uploadAvatar(): Promise<void> {
-    const filePath = join(__dirname, "..", "tests", "data", "test_avatar.jpeg");
+    const filePath = join(__dirname, "..", "data", "test_avatar.jpeg");
     await this.fileInput.setInputFiles(filePath);
     await this.uploadAvatarBtn.click();
-    await expect(this.toastMessage).toBeVisible();
+    await expect(this.toastAvatarMessage).toBeVisible();
   }
 
   async validateBookedRoomList(): Promise<void> {
     const count = await this.bookedRoomList.count();
     await expect(count).toBeGreaterThan(0);
+  }
+  async validateInfoUser(name: string) {
+    // await expect(this.toastInfoMessage).toBeVisible();
+    await expect(this.infoUser(name)).toBeVisible();
   }
 }

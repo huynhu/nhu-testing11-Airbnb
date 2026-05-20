@@ -18,13 +18,22 @@ test.describe("Destination Test", () => {
     test(`"Click ${city.name} card"`, async ({ page }) => {
       const homePage = new HomePage(page);
       await homePage.navigateToHomePage();
-      await homePage.clickCityCard(city.url, city.name);
+      await homePage.clickCityCard(city.name, city.url);
+      await expect(page).toHaveURL(`/rooms/${city.url}`);
+    });
+  }
+  for (const city of destinations) {
+    test(`"TC02: Search ${city.name}"`, async ({ page }) => {
+      const homePage = new HomePage(page);
+      await homePage.navigateToHomePage();
+      await homePage.selectDestination(city.name);
+      await homePage.clickSearchBtn();
       await expect(page).toHaveURL(`/rooms/${city.url}`);
     });
   }
 });
 
-test.describe("Sign Out", () => {
+test.describe("Home page test", () => {
   test.beforeEach(async ({ page }) => {
     // 1. Mo trang chu
     const homePage = new HomePage(page);
@@ -39,13 +48,5 @@ test.describe("Sign Out", () => {
     const homePage = new HomePage(page);
     await homePage.clickSignOut();
     await expect(page).toHaveURL("/");
-  });
-
-  test("TC02: Search destination", async ({ page }) => {
-    const homePage = new HomePage(page);
-    await homePage.selectDestination("Đà Lạt");
-    await homePage.selectDateRange("01/05/2026", "10/05/2026");
-    await homePage.selectGuests(2);
-    await homePage.clickSearchBtn();
   });
 });

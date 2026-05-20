@@ -1,0 +1,418 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Cyber Logo CyberSoft" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Cyber Logo" [ref=e6]
+          - generic [ref=e7]: CyberSoft
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Home" [ref=e14] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e15]:
+            - link "About" [ref=e16] [cursor=pointer]:
+              - /url: /room-detail/10
+          - listitem [ref=e17]:
+            - link "Services" [ref=e18] [cursor=pointer]:
+              - /url: /room-detail/10
+          - listitem [ref=e19]:
+            - link "Pricing" [ref=e20] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e21]:
+            - link "Contact" [ref=e22] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=e24]:
+      - heading "Hanoi Old Quarter Homestay - Unique Railway View" [level=2] [ref=e25]
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - img [ref=e31]
+          - text: Chủ nhà siêu cấp
+        - link "Hà Nội, Việt Nam" [ref=e33] [cursor=pointer]:
+          - /url: /rooms/ha-noi
+      - generic [ref=e36]:
+        - generic [ref=e40] [cursor=pointer]:
+          - img "eye" [ref=e41]:
+            - img [ref=e42]
+          - text: Xem trước
+        - generic [ref=e47] [cursor=pointer]:
+          - img "eye" [ref=e48]:
+            - img [ref=e49]
+          - text: Xem trước
+        - generic [ref=e54] [cursor=pointer]:
+          - img "eye" [ref=e55]:
+            - img [ref=e56]
+          - text: Xem trước
+        - generic [ref=e61] [cursor=pointer]:
+          - img "eye" [ref=e62]:
+            - img [ref=e63]
+          - text: Xem trước
+        - generic [ref=e68] [cursor=pointer]:
+          - img "eye" [ref=e69]:
+            - img [ref=e70]
+          - text: Xem trước
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - heading "Toàn bộ căn hộ. Chủ nhà nnhatsang" [level=3] [ref=e82]
+              - paragraph [ref=e83]: 2 Khách • Phòng Studio • 1 Phòng ngủ • 1 giường • 1 Phòng tắm
+            - img [ref=e86]
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - img [ref=e94]
+              - generic [ref=e97]:
+                - heading "Toàn bộ nhà" [level=4] [ref=e98]
+                - paragraph [ref=e99]: Bạn sẽ có chung cư cao cấp cho riêng mình.
+            - generic [ref=e100]:
+              - img [ref=e101]
+              - generic [ref=e104]:
+                - heading "Vệ sinh tăng cường" [level=4] [ref=e105]
+                - paragraph [ref=e106]: Chủ nhà này đã cam kết thực hiện quy trình vệ sinh tăng cường 5 bước của Airbnb. Hiển thị thêm
+            - generic [ref=e107]:
+              - img [ref=e108]
+              - generic [ref=e110]:
+                - heading "Phong là Chủ nhà siêu cấp" [level=4] [ref=e111]
+                - paragraph [ref=e112]: Chủ nhà siêu cấp là những chủ nhà có kinh nghiệm, được đánh giá cao và là những người cam kết mang lại quãng thời gian ở tuyệt vời cho khách.
+            - generic [ref=e113]:
+              - img [ref=e114]
+              - heading "Miễn phí hủy trong 48 giờ" [level=4] [ref=e118]
+          - generic [ref=e120]:
+            - button "Dịch sang tiếng Anh" [ref=e122] [cursor=pointer]:
+              - generic [ref=e123]: Dịch sang tiếng Anh
+              - img [ref=e124]
+            - paragraph [ref=e126]: Welcome to our house - a newly renovated apartment & just a step to Old Quarter, Dong Xuan Market, Hoan Kiem Lake... You will get a chance to truly live a Hanoian life with local neighbor, local food & an one-of-a-kind experience of living right beside an unique Hanoi old French style Railway.
+            - text: Hiển thị thêm
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: $23
+              - text: / night
+            - generic [ref=e135]:
+              - img "star" [ref=e136]:
+                - img [ref=e137]
+              - generic [ref=e139]: "4.78"
+              - generic [ref=e140] [cursor=pointer]: (9) đánh giá
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143] [cursor=pointer]:
+                - generic [ref=e144]: Nhận phòng
+                - generic [ref=e145]: 10-05-2026
+              - generic [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]: Trả phòng
+                - generic [ref=e148]: 15-05-2026
+            - generic [ref=e149]:
+              - generic [ref=e150]: Khách
+              - generic [ref=e151]:
+                - button "–" [ref=e153] [cursor=pointer]:
+                  - generic [ref=e154]: –
+                - generic [ref=e155]: 2 khách
+                - button "+" [ref=e157] [cursor=pointer]:
+                  - generic [ref=e158]: +
+          - button "Đặt phòng" [active] [ref=e159] [cursor=pointer]
+          - paragraph [ref=e160]: Bạn vẫn chưa bị trừ tiền
+          - generic [ref=e161]:
+            - paragraph [ref=e162]: $23 X 5 nights
+            - paragraph [ref=e163]: $ 115
+          - generic [ref=e164]:
+            - paragraph [ref=e165]: Cleaning fee
+            - paragraph [ref=e166]: $ 8
+          - generic [ref=e168]:
+            - paragraph [ref=e169]: Total before taxes
+            - paragraph [ref=e170]: "123"
+      - generic [ref=e171]:
+        - heading "Các tiện ích đi kèm" [level=3] [ref=e172]
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - img [ref=e176]
+            - text: Bếp
+          - generic [ref=e178]:
+            - img [ref=e180]
+            - text: Wifi
+          - generic [ref=e182]:
+            - img [ref=e184]
+            - text: Tivi
+          - generic [ref=e186]:
+            - img [ref=e188]
+            - text: Điều hòa
+          - generic [ref=e190]:
+            - img [ref=e192]
+            - text: Bãi đỗ xe
+          - generic [ref=e194]:
+            - img [ref=e196]
+            - text: Bàn ủi
+          - generic [ref=e198]:
+            - img [ref=e200]
+            - text: Máy giặt
+        - button "Ẩn bớt tiện nghi" [ref=e202] [cursor=pointer]
+      - alert [ref=e205]:
+        - generic [ref=e207]: Cần đăng nhập để bình luận
+      - heading "Bình luận" [level=3] [ref=e209]
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - generic [ref=e214]:
+            - paragraph [ref=e215]:
+              - text: nguyen thanh tuan
+              - generic [ref=e217]:
+                - img "star" [ref=e218]:
+                  - img [ref=e219]
+                - img "star" [ref=e221]:
+                  - img [ref=e222]
+                - img "star" [ref=e224]:
+                  - img [ref=e225]
+                - img "star" [ref=e227]:
+                  - img [ref=e228]
+            - paragraph [ref=e230]:
+              - time [ref=e232]: 10 ngày trước
+          - generic [ref=e234]: aa
+        - generic [ref=e235]:
+          - generic [ref=e238]:
+            - paragraph [ref=e239]:
+              - text: nguyen thanh tuan
+              - generic [ref=e241]:
+                - img "star" [ref=e242]:
+                  - img [ref=e243]
+                - img "star" [ref=e245]:
+                  - img [ref=e246]
+                - img "star" [ref=e248]:
+                  - img [ref=e249]
+                - img "star" [ref=e251]:
+                  - img [ref=e252]
+                - img "star" [ref=e254]:
+                  - img [ref=e255]
+            - paragraph [ref=e257]:
+              - time [ref=e259]: 10 ngày trước
+          - generic [ref=e261]: a
+        - generic [ref=e262]:
+          - generic [ref=e265]:
+            - paragraph [ref=e266]:
+              - text: Minh Phước
+              - generic [ref=e268]:
+                - img "star" [ref=e269]:
+                  - img [ref=e270]
+                - img "star" [ref=e272]:
+                  - img [ref=e273]
+                - img "star" [ref=e275]:
+                  - img [ref=e276]
+                - img "star" [ref=e278]:
+                  - img [ref=e279]
+                - img "star" [ref=e281]:
+                  - img [ref=e282]
+            - paragraph [ref=e284]:
+              - time [ref=e286]: Invalid date
+          - generic [ref=e288]: fadsfsafsafsafasf
+        - generic [ref=e289]:
+          - generic [ref=e292]:
+            - paragraph [ref=e293]:
+              - text: Minh Phước
+              - generic [ref=e295]:
+                - img "star" [ref=e296]:
+                  - img [ref=e297]
+                - img "star" [ref=e299]:
+                  - img [ref=e300]
+                - img "star" [ref=e302]:
+                  - img [ref=e303]
+                - img "star" [ref=e305]:
+                  - img [ref=e306]
+                - img "star" [ref=e308]:
+                  - img [ref=e309]
+            - paragraph [ref=e311]:
+              - time [ref=e313]: Invalid date
+          - generic [ref=e315]: fafasfasfas
+        - generic [ref=e316]:
+          - generic [ref=e319]:
+            - paragraph [ref=e320]:
+              - text: Vinaup
+              - generic [ref=e322]:
+                - img "star" [ref=e323]:
+                  - img [ref=e324]
+                - img "star" [ref=e326]:
+                  - img [ref=e327]
+                - img "star" [ref=e329]:
+                  - img [ref=e330]
+                - img "star" [ref=e332]:
+                  - img [ref=e333]
+                - img "star" [ref=e335]:
+                  - img [ref=e336]
+            - paragraph [ref=e338]:
+              - time [ref=e340]: Invalid date
+          - generic [ref=e342]: Tot tot
+        - generic [ref=e343]:
+          - generic [ref=e346]:
+            - paragraph [ref=e347]:
+              - text: Phước Lộc
+              - generic [ref=e349]:
+                - img "star" [ref=e350]:
+                  - img [ref=e351]
+                - img "star" [ref=e353]:
+                  - img [ref=e354]
+                - img "star" [ref=e356]:
+                  - img [ref=e357]
+                - img "star" [ref=e359]:
+                  - img [ref=e360]
+                - img "star" [ref=e362]:
+                  - img [ref=e363]
+            - paragraph [ref=e365]:
+              - time [ref=e367]: 3 tháng trước
+          - generic [ref=e369]: Phòng này đẹp nhé
+        - generic [ref=e370]:
+          - generic [ref=e373]:
+            - paragraph [ref=e374]:
+              - text: cuong5
+              - generic [ref=e376]:
+                - img "star" [ref=e377]:
+                  - img [ref=e378]
+                - img "star" [ref=e380]:
+                  - img [ref=e381]
+                - img "star" [ref=e383]:
+                  - img [ref=e384]
+                - img "star" [ref=e386]:
+                  - img [ref=e387]
+                - img "star" [ref=e389]:
+                  - img [ref=e390]
+            - paragraph [ref=e392]:
+              - time [ref=e394]: 4 tháng trước
+          - generic [ref=e396]: phòng mới đẹp
+        - generic [ref=e397]:
+          - generic [ref=e400]:
+            - paragraph [ref=e401]:
+              - text: Thành Phát Thạch
+              - generic [ref=e403]:
+                - img "star" [ref=e404]:
+                  - img [ref=e405]
+                - img "star" [ref=e407]:
+                  - img [ref=e408]
+                - img "star" [ref=e410]:
+                  - img [ref=e411]
+                - img "star" [ref=e413]:
+                  - img [ref=e414]
+                - img "star" [ref=e416]:
+                  - img [ref=e417]
+            - paragraph [ref=e419]:
+              - time [ref=e421]: Invalid date
+          - generic [ref=e423]: phòng đẹp, thoáng mát
+        - generic [ref=e424]:
+          - generic [ref=e427]:
+            - paragraph [ref=e428]:
+              - text: beba
+              - generic [ref=e430]:
+                - img "star" [ref=e431]:
+                  - img [ref=e432]
+                - img "star" [ref=e434]:
+                  - img [ref=e435]
+                - img "star" [ref=e437]:
+                  - img [ref=e438]
+                - img "star" [ref=e440]:
+                  - img [ref=e441]
+            - paragraph [ref=e443]:
+              - time [ref=e445]: 7 tháng trước
+          - generic [ref=e447]: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    - generic [ref=e448]:
+      - generic [ref=e449]:
+        - generic [ref=e450]:
+          - heading "Giới thiệu" [level=2] [ref=e451]
+          - list [ref=e452]:
+            - listitem [ref=e453]:
+              - link "Phương thức hoạt động của Cyber" [ref=e454] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e455]:
+              - link "Trang tin tức" [ref=e456] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e457]:
+              - link "Nhà đầu tư" [ref=e458] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e459]:
+              - link "Cyber Plus" [ref=e460] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e461]:
+              - link "Cyber Luxe" [ref=e462] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e463]:
+              - link "HotelTonight" [ref=e464] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e465]:
+              - link "Cyber for Work" [ref=e466] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e467]:
+              - link "Nhờ có Host, mọi điều đều có thể" [ref=e468] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e469]:
+              - link "Cơ hội nghề nghiệp" [ref=e470] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e471]:
+              - link "Thư của nhà sáng lập" [ref=e472] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e473]:
+          - heading "Cộng đồng" [level=2] [ref=e474]
+          - list [ref=e475]:
+            - listitem [ref=e476]:
+              - link "Sự đa đạng và Cảm giác thân thuộc" [ref=e477] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e478]:
+              - link "Tiện nghi phù hợp cho người khuyết tật" [ref=e479] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e480]:
+              - link "Đối tác liên kết Cyber" [ref=e481] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e482]:
+              - link "Chỗ ở cho tuyến đầu" [ref=e483] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e484]:
+              - link "Lượt giới thiệu của khách" [ref=e485] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e486]:
+              - link "CyberSoft.edu.vn" [ref=e487] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e488]:
+          - heading "Đón tiếp khách" [level=2] [ref=e489]
+          - list [ref=e490]:
+            - listitem [ref=e491]:
+              - link "Cho thuê nhà" [ref=e492] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e493]:
+              - link "Tổ chức Trải nghiệm trực tuyến" [ref=e494] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e495]:
+              - link "Tổ chức Trải nghiệm" [ref=e496] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e497]:
+              - link "Đón tiếp khách có trách nhiệm" [ref=e498] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e499]:
+              - link "Trung tâm tài nguyên" [ref=e500] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e501]:
+              - link "Trung tâm cộng đồng" [ref=e502] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+        - generic [ref=e503]:
+          - heading "Hỗ trợ" [level=2] [ref=e504]
+          - list [ref=e505]:
+            - listitem [ref=e506]:
+              - link "Biện pháp ứng phó đại dịch COVID-19" [ref=e507] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e508]:
+              - link "Trung tâm trợ giúp" [ref=e509] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e510]:
+              - link "Các tùy chọn hủy" [ref=e511] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e512]:
+              - link "Hỗ trợ khu dân cư" [ref=e513] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+            - listitem [ref=e514]:
+              - link "Tin cây và an toàn" [ref=e515] [cursor=pointer]:
+                - /url: https://cybersoft.edu.vn
+      - generic [ref=e517]:
+        - generic [ref=e518]: © 2022 Nguyễn Nhật Sang, Inc.Quyền riêng tư.Điều khoản.Sơ đồ trang web.
+        - generic [ref=e519]:
+          - img [ref=e521]
+          - text: Tiếng Việt (VN)
+          - text: USD
+          - generic [ref=e523]: Hỗ trợ tài nguyên
+  - img [ref=e525] [cursor=pointer]
+```

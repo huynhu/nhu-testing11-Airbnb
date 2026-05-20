@@ -59,7 +59,5 @@ export class AdminPage {
   }
   async searchUser(keyword: string) {
     await this.searchInput.fill(keyword);
-    // Assuming there's a search button to click after filling the input
-    // If the search is triggered by pressing Enter, you can use:
   }
 }

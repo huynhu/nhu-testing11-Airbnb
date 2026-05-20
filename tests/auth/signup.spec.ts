@@ -11,7 +11,9 @@ import { apiUserGenerator } from "../../utils/dataGenerator/apiUserGenerator";
 const user = userGenerator();
 
 test.describe("Sign Up Page", () => {
-  test("TC01: Sign Up with valid information", async ({ page }) => {
+  test("TC01 - Authentication: Sign up: Test Sign Up with valid information", async ({
+    page,
+  }) => {
     const signUpPage = new SignUpPage(page);
     const homePage = new HomePage(page);
     const user = userGenerator();
@@ -30,7 +32,9 @@ test.describe("Sign Up Page", () => {
 });
 
 test.describe("Sign Up with invalid email", () => {
-  test("TC02: Test Sign Up that fails with invalid email", async ({ page }) => {
+  test("TC02 - Authentication: Sign Up: Test Sign Up that fails with invalid email", async ({
+    page,
+  }) => {
     const signUpPage = new SignUpPage(page);
     const homePage = new HomePage(page);
     const user = userGenerator();
@@ -55,7 +59,7 @@ test.describe("Sign Up with invalid email", () => {
 });
 
 test.describe("Sign Up with invalid phone number", () => {
-  test("TC04: Test Sign Up that fails with invalid phone number", async ({
+  test("TC03 - Authentication: Sign Up: Test Sign Up that fails with invalid phone number", async ({
     page,
   }) => {
     const signUpPage = new SignUpPage(page);
@@ -78,7 +82,9 @@ test.describe("Sign Up with invalid phone number", () => {
 });
 
 test.describe("Sign Up with existing email", () => {
-  test("TC03: Sign Up that fails with existing email", async ({ page }) => {
+  test("TC04 - Authentication: Sign Up: Test Sign Up that fails with existing email", async ({
+    page,
+  }) => {
     const signUpPage = new SignUpPage(page);
     const homePage = new HomePage(page);
     const apiuser = apiUserGenerator();
